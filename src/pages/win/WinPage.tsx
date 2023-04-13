@@ -17,7 +17,7 @@ function WinPage() {
     return (
         <div className="page-wrapper">
             <h1 className="win-text">Gewonnen!</h1>
-            <BackToRouletteButton isAutomaticRedirect={false} />
+            <BackToRouletteButton isAutomaticRedirect={false} isHardReloadPage={true} />
             <Fireworks
                 ref={ref}
                 className="fireworks"

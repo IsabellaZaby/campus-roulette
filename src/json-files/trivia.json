@@ -1,15 +1,17 @@
-[{
+[
+    {
         "category": "Campus",
-        "questions": [{
-                "question": "Wo sind die Campus der FH Burgenland?",
+        "questions": [
+            {
+                "question": "Wo befinden sich die Campus der FH Burgenland?",
                 "answer": [
-                    "Pinkafeld, Eisenstadt",
-                    "Oberpullendorf, Jennersdorf",
-                    "Graz, St. Pölten, Linz",
-                    "Wien, Niederösterreich, Burgenland"
+                    "Pinkafeld & Eisenstadt",
+                    "Oberpullendorf & Jennersdorf",
+                    "Graz, St. Pölten & Linz",
+                    "Wien, Niederösterreich & Burgenland"
                 ],
                 "correct": [
-                    "Pinkafeld, Eisenstadt"
+                    "Pinkafeld & Eisenstadt"
                 ]
             },
             {
@@ -25,7 +27,7 @@
                 ]
             },
             {
-                "question": "Wo steht das Energetikum?",
+                "question": "Wo befindet sich das Energetikum der FH Burgenland?",
                 "answer": [
                     "Pinkafeld",
                     "Jennersdorf",
@@ -37,7 +39,7 @@
                 ]
             },
             {
-                "question": "Wo befindet sich der Hauptcampus der FH Burgenland?",
+                "question": "Wo findet man den Hauptcampus der FH Burgenland?",
                 "answer": [
                     "Pinkafeld",
                     "Jennersdorf",
@@ -52,8 +54,9 @@
     },
     {
         "category": "Studium",
-        "questions": [{
-                "question": "Welche Farbe hat das Dept Wirtschaft?",
+        "questions": [
+            {
+                "question": "Welche Farbe hat das Dept. Wirtschaft?",
                 "answer": [
                     "Dunkelblau",
                     "Blau",
@@ -65,7 +68,7 @@
                 ]
             },
             {
-                "question": "Wie viele BA-Studiengänge gibt es insgesamt?",
+                "question": "Wie viele BA Studiengänge gibt es insgesamt auf der FH Burgenland?",
                 "answer": [
                     "15",
                     "201",
@@ -77,7 +80,7 @@
                 ]
             },
             {
-                "question": "Welcher Bachelorstudiengang gehört zum Dept IT?",
+                "question": "Welcher Bachelorstudiengang gehört zum Dept. IT der FH Burgenland?",
                 "answer": [
                     "BGKP",
                     "BGET",
@@ -89,19 +92,19 @@
                 ]
             },
             {
-                "question": "Welche Arten des Studiums bietet die FH-Burgenland an?",
+                "question": "Welche Arten des Studierens bietet die FH Burgenland an?",
                 "answer": [
-                    "berufsbegleitend, verlängert berfusbegleitend, vollzeit, berufsermöglichend",
-                    "nur berfusbegleitend",
+                    "berufsbegleitend, verlängert berufsbegleitend, vollzeit, berufsermöglichend",
+                    "nur berufsbegleitend",
                     "nur vollzeit",
                     "Keine Ahnung, ich bin ewiger Student"
                 ],
                 "correct": [
-                    "berufsbegleitend, verlängert berfusbegleitend, vollzeit, berufsermöglichend"
+                    "berufsbegleitend, verlängert berufsbegleitend, vollzeit, berufsermöglichend"
                 ]
             },
             {
-                "question": "Welcher Studiengang wurde 2021 als Top-Studiengang ausgezeichnet?",
+                "question": "Welcher Studiengang wurde 2021 als Top-Studiengang der FH Burgenland ausgezeichnet?",
                 "answer": [
                     "Gesundheits- und Krankenpflege",
                     "Software Engineering",
@@ -116,7 +119,8 @@
     },
     {
         "category": "Mensa",
-        "questions": [{
+        "questions": [
+            {
                 "question": "Schmeckt das Essen in der Mensa?",
                 "answer": [
                     "Ja",
@@ -127,7 +131,7 @@
                 "correct": [
                     "Ja",
                     "Nein",
-                    "Weis nicht ich bin auf Diät",
+                    "Weiß nicht, ich bin auf Diät",
                     "Keine Angabe, ich will niemanden Beleidigen"
                 ]
             },
@@ -136,15 +140,15 @@
                 "answer": [
                     "Eisenstadt",
                     "Pinkafeld",
-                    "Eisenstadt und Pinkafeld",
-                    "An keiner, ich gehe zum Kepab Hansl"
+                    "Eisenstadt & Pinkafeld",
+                    "An keiner, ich gehe zum Kepab Laden"
                 ],
                 "correct": [
-                    "Eisenstadt und Pinkafeld"
+                    "Eisenstadt & Pinkafeld"
                 ]
             },
             {
-                "question": "Gibt es auch Kaffee in der Mensa?",
+                "question": "Gibt es auch Kaffee in der Mensa der FH Burgenland?",
                 "answer": [
                     "Ja",
                     "Nein",
@@ -158,9 +162,10 @@
         ]
     },
     {
-        "category": "Dept IT",
-        "questions": [{
-                "question": "Wieviele BA Studiengänge gibt es?",
+        "category": "Dept. IT",
+        "questions": [
+            {
+                "question": "Wie viele BA Studiengänge gibt es auf der FH Burgenland?",
                 "answer": [
                     "Keinen",
                     "Drei",
@@ -172,7 +177,7 @@
                 ]
             },
             {
-                "question": "Mit welchen Titel schließt man den Studiengang BIMK ab?",
+                "question": "Mit welchen Titel schließt man den Studiengang BIMK der FH Burgenland ab?",
                 "answer": [
                     "BA",
                     "BSc",
@@ -184,7 +189,7 @@
                 ]
             },
             {
-                "question": "Wieviele MA Lehrgänge gibt es?",
+                "question": "Wie viele MA Lehrgänge gibt es auf der FH Burgenland?",
                 "answer": [
                     "Keinen, die werden alle gleich PhD",
                     "Vier",
@@ -198,9 +203,10 @@
         ]
     },
     {
-        "category": "Dept Soziales",
-        "questions": [{
-                "question": "Gibt es auch einen MA Studiengang im Dept Soziales?",
+        "category": "Dept. Soziales",
+        "questions": [
+            {
+                "question": "Gibt es auch einen MA Studiengang im Dept. Soziales der FH Burgenland?",
                 "answer": [
                     "Nein",
                     "Ja",
@@ -212,7 +218,7 @@
                 ]
             },
             {
-                "question": "Welche BA Studiengänge gibt es im Dept Soziales?",
+                "question": "Welche BA Studiengänge gibt es im Dept. Soziales der FH Burgenland?",
                 "answer": [
                     "BJUS",
                     "BJUS, BSOZ",
@@ -224,10 +230,10 @@
                 ]
             },
             {
-                "question": "Bietet das Dept Soziales auch berufsbegleitende Studiengänge an?",
+                "question": "Bietet das Dept. Soziales der FH Burgenland auch berufsbegleitende Studiengänge an?",
                 "answer": [
                     "Es gibt ein Dept. Soziales?",
-                    "Ja, alle sind berufbegleitend",
+                    "Ja, alle sind berufsbegleitend",
                     "Es gibt nur berufsbegleitende Studiengänge im Dept. Soziales",
                     "Nein"
                 ],
@@ -239,24 +245,27 @@
     },
     {
         "category": "Batman",
-        "questions": [{
-            "question": "Bist du da Batman?",
-            "answer": [
-                "Na, I bin da Batman",
-                "Na, I bin da Superman",
-                "Wos is?",
-                "Achso?"
-            ],
-            "correct": [
-                "Na, I bin da Superman",
-                "Wos is?"
-            ]
-        }]
+        "questions": [
+            {
+                "question": "Bist du da Batman?",
+                "answer": [
+                    "Na, I bin da Batman",
+                    "Na, I bin da Superman",
+                    "Wos is?",
+                    "Achso?"
+                ],
+                "correct": [
+                    "Na, I bin da Superman",
+                    "Wos is?"
+                ]
+            }
+        ]
     },
     {
-        "category": "Dept Wirtschaft",
-        "questions": [{
-                "question": "Gibt es einen MA Studiengang Internationales Weinmarketing?",
+        "category": "Dept. Wirtschaft",
+        "questions": [
+            {
+                "question": "Gibt es einen MA Studiengang Internationales Weinmarketing auf der FH Burgenland?",
                 "answer": [
                     "Nein",
                     "Ja",
@@ -268,9 +277,9 @@
                 ]
             },
             {
-                "question": "An welchen Campus werden Studiengänge des Dept. Wirtschaft angeboten?",
+                "question": "An welchen Campus werden Studiengänge des Dept. Wirtschaft der FH Burgenland angeboten?",
                 "answer": [
-                    "Eisenstadt und Pinkafeld",
+                    "Eisenstadt & Pinkafeld",
                     "Eisenstadt",
                     "Graz, St. Pölten, Linz",
                     "Wien"
@@ -280,10 +289,10 @@
                 ]
             },
             {
-                "question": "Welche Studienform bietet der Studiengang International Sustainable Business?",
+                "question": "Welche Studienform bietet der Studiengang International Sustainable Business der FH Burgenland?",
                 "answer": [
                     "Berufsermöglichend",
-                    "Berufbegleitend",
+                    "Berufsbegleitend",
                     "Keine Ahnung",
                     "Vollzeit"
                 ],
@@ -294,12 +303,13 @@
         ]
     },
     {
-        "category": "Dept Energie&Umwelt",
-        "questions": [{
-                "question": "An welchen Campus ist das Dept Energie&Umwelt zu finden?",
+        "category": "Dept. Energie&Umwelt",
+        "questions": [
+            {
+                "question": "An welchen Campus ist das Dept. Energie&Umwelt der FH Burgenland zu finden?",
                 "answer": [
                     "Pinkafeld",
-                    "Eisenstadt und Pinkafeld",
+                    "Eisenstadt & Pinkafeld",
                     "Jennersdorf",
                     "Zürich"
                 ],
@@ -308,7 +318,7 @@
                 ]
             },
             {
-                "question": "Wieviele MA Studiengänge werden angeboten?",
+                "question": "Wie viele MA Studiengänge bietet das Dept. Energie&Umwelt der FH Burgenland an?",
                 "answer": [
                     "Drei",
                     "Keine",
@@ -320,7 +330,7 @@
                 ]
             },
             {
-                "question": "Gibt es einen BA Studiengang Photonik und Neuronik?",
+                "question": "Gibt es einen BA Studiengang Photonik und Neuronik an der FH Burgenland?",
                 "answer": [
                     "Nein",
                     "Natürlich, den mache ich gerade",
@@ -334,9 +344,10 @@
         ]
     },
     {
-        "category": "Dept Gesundheit",
-        "questions": [{
-                "question": "Gibt es ein Medizinstudium im Dept Gesundheit?",
+        "category": "Dept. Gesundheit",
+        "questions": [
+            {
+                "question": "Gibt es ein Medizinstudium im Dept. Gesundheit der FH Burgenland?",
                 "answer": [
                     "Nein",
                     "Ja",
@@ -348,11 +359,11 @@
                 ]
             },
             {
-                "question": "Gibt es den Studiengang BA Hebammen?",
+                "question": "Gibt es den Studiengang BA Hebammen an der FH Burgenland?",
                 "answer": [
                     "Ja",
                     "Nein",
-                    "Dieser ist integriert im Medizinstudium",
+                    "Ja, dieser ist integriert im Medizinstudium",
                     "Nein, es ist ein MA Studiengang"
                 ],
                 "correct": [
@@ -360,9 +371,9 @@
                 ]
             },
             {
-                "question": "Auf welchen Standorten ist das Dept Gesundheit zu finden?",
+                "question": "Auf welchen Standorten ist das Dept. Gesundheit der FH Burgenland zu finden?",
                 "answer": [
-                    "Bregenz?",
+                    "Bregenz",
                     "Eisenstadt",
                     "Pinkafeld",
                     "Unterstinkenbrunn"
@@ -375,7 +386,8 @@
     },
     {
         "category": "FunFacts",
-        "questions": [{
+        "questions": [
+            {
                 "question": "Ist die FH-Burgenland die einzige FH im Burgenland?",
                 "answer": [
                     "Nein, Da gibt es noch die Weinakademie",
@@ -388,7 +400,7 @@
                 ]
             },
             {
-                "question": "Gibt es genug Steckdosen in den Räumen der FH für IT Studierende?",
+                "question": "Gibt es genug Steckdosen für IT Studierende in den Räumen der FH Burgenland?",
                 "answer": [
                     "Nein, Es sind immer zuwenig Steckdosen",
                     "Ja, ich hab keinen Laptop",
@@ -425,7 +437,7 @@
                 ]
             },
             {
-                "question": "Wie viele MA bietet die FH Burgenland an?",
+                "question": "Wie viele MA Studiengänge bietet die FH Burgenland an?",
                 "answer": [
                     "Acht",
                     "Achtundfünzig",
@@ -437,7 +449,7 @@
                 ]
             },
             {
-                "question": "Wieviele Kilometer sind zwischen Campus Eisenstadt und Pinkafeld?",
+                "question": "Wie viele Kilometer sind zwischen Campus Eisenstadt und Pinkafeld?",
                 "answer": [
                     "84,8 km",
                     "Es gibt zwei Campus?",
@@ -452,8 +464,9 @@
     },
     {
         "category": "Gebäude",
-        "questions": [{
-                "question": "Wo steht das Seminargebäude/Zentrum?",
+        "questions": [
+            {
+                "question": "Wo befindet sich das Seminargebäude der FH Burgenland?",
                 "answer": [
                     "Pinkafeld",
                     "Eisenstadt",
@@ -465,7 +478,7 @@
                 ]
             },
             {
-                "question": "Wieviele Stockwerke hat das HG in Eisenstadt?",
+                "question": "Wie viele Stockwerke hat das HG der FH Burgenland in Eisenstadt?",
                 "answer": [
                     "Zwei",
                     "Fünf",
@@ -477,7 +490,7 @@
                 ]
             },
             {
-                "question": "Wo befindet sich das Sensoriklabor?",
+                "question": "Wo befindet sich das Sensoriklabor der FH Burgenland?",
                 "answer": [
                     "Am Campus Eisenstadt",
                     "So was gibt es auf der FH?",
@@ -492,18 +505,20 @@
     },
     {
         "category": "Joker",
-        "questions": [{
-            "question": "AHAHAHAHA!",
-            "answer": [
-                "Brbl",
-                "Grubl",
-                "Blala",
-                "Hehehe"
-            ],
-            "correct": [
-                "Blala",
-                "Hehehe"
-            ]
-        }]
+        "questions": [
+            {
+                "question": "AHAHAHAHA!",
+                "answer": [
+                    "Brbl",
+                    "Grubl",
+                    "Blala",
+                    "Hehehe"
+                ],
+                "correct": [
+                    "Blala",
+                    "Hehehe"
+                ]
+            }
+        ]
     }
 ]

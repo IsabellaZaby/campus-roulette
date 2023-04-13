@@ -5,12 +5,14 @@ import { Link, useNavigate } from 'react-router-dom';
 interface IBackRouletteButtonProps {
     countdownProps?: number;
     isAutomaticRedirect?: boolean;
+    isHardReloadPage?: boolean;
 }
 
 function BackToRouletteButton(props: IBackRouletteButtonProps) {
-    const { countdownProps = 3, isAutomaticRedirect = true } = props;
+    const { countdownProps = 3, isAutomaticRedirect = true, isHardReloadPage = false } = props;
     const navigate = useNavigate();
     const [countdown, setCountdown] = useState(countdownProps);
+
     useEffect(() => {
         if (isAutomaticRedirect) {
             let intervalId = setInterval(() => {
@@ -25,6 +27,10 @@ function BackToRouletteButton(props: IBackRouletteButtonProps) {
                 clearInterval(intervalId);
                 clearTimeout(timeout);
             };
+        }
+        if (isHardReloadPage) {
+            navigate('/');
+            location.reload();
         }
     }, []);
     return (

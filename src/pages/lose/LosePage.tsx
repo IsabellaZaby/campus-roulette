@@ -22,7 +22,7 @@ function LosePage() {
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowFullScreen
             ></iframe>
-            <BackToRouletteButton isAutomaticRedirect={false} />
+            <BackToRouletteButton isAutomaticRedirect={false} isHardReloadPage={true} />
         </div>
     );
 }
