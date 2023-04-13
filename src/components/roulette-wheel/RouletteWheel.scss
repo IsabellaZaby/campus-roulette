@@ -1,0 +1,287 @@
+.container {
+    position: relative;
+    margin: 2rem auto;
+}
+
+$diameter: 500px;
+$numberOfSlices: 12;
+$radius: ($diameter / 2);
+$circumfrance: (6.283185307 * $radius);
+$sliceHeight: ($circumfrance / $numberOfSlices);
+$sliceOffeset: ($sliceHeight / 2);
+$sliceColor: #095b8d;
+$rotation: 360deg / $numberOfSlices;
+
+.spinner-table {
+    height: ($diameter - 2px);
+    width: ($diameter - 2px);
+    position: relative;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.dial {
+    height: 100%;
+    transition: all 5s ease-out;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+
+    &.spinning {
+        animation-duration: 5s;
+        animation-timing-function: cubic-bezier(0.44, -0.205, 0, 1.13);
+        animation-name: spinning;
+    }
+
+    &:before {
+        content: '';
+        text-align: center;
+        display: block;
+        line-height: 60px;
+        position: absolute;
+        height: 40px;
+        width: 40px;
+        background: white;
+        box-shadow: 0 0 5px 5px rgba(#000, 0.1);
+        top: 50%;
+        left: 50%;
+        margin-top: -20px;
+        margin-left: -20px;
+        border-radius: 100%;
+        z-index: 200;
+    }
+
+    .slice {
+        z-index: 150;
+        position: absolute;
+        top: calc(50% - #{$sliceOffeset});
+        height: $sliceHeight;
+        left: 50%;
+        width: 50%;
+        color: white;
+        text-align: right;
+        padding-right: 10px;
+        display: block;
+        transform-origin: left center;
+
+        &:before,
+        &:after {
+            content: '';
+            display: block;
+            width: 0;
+            height: 0;
+            border-style: solid;
+        }
+
+        &:before {
+            margin-bottom: -1px;
+            margin-top: -2px;
+            border-width: 0 0 (($sliceHeight / 2) + 4px) $radius;
+        }
+
+        &:after {
+            margin-top: -1px;
+            margin-bottom: -2px;
+            border-width: 0 $radius (($sliceHeight / 2) + 4px) 0;
+        }
+
+        .label {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 80%;
+            line-height: $sliceHeight;
+            padding-top: 1px;
+            padding-bottom: 1px;
+            font-size: 16px;
+            text-align: right;
+            padding-left: 20px;
+        }
+
+        &:nth-child(1) {
+            transform: rotate(0deg);
+
+            &:after {
+                border-color: transparent #ff0000 transparent transparent;
+            }
+
+            &:before {
+                border-color: transparent transparent #ff0000 transparent;
+            }
+        }
+        &:nth-child(2) {
+            transform: rotate(30deg);
+            &:after {
+                border-color: transparent #ff8000 transparent transparent;
+            }
+
+            &:before {
+                border-color: transparent transparent #ff8000 transparent;
+            }
+        }
+        &:nth-child(3) {
+            transform: rotate(60deg);
+            &:after {
+                border-color: transparent #ffff00 transparent transparent;
+            }
+
+            &:before {
+                border-color: transparent transparent #ffff00 transparent;
+            }
+        }
+        &:nth-child(4) {
+            transform: rotate(90deg);
+            &:after {
+                border-color: transparent #80ff00 transparent transparent;
+            }
+
+            &:before {
+                border-color: transparent transparent #80ff00 transparent;
+            }
+        }
+        &:nth-child(5) {
+            transform: rotate(120deg);
+            &:after {
+                border-color: transparent #00ff00 transparent transparent;
+            }
+
+            &:before {
+                border-color: transparent transparent #00ff00 transparent;
+            }
+        }
+        &:nth-child(6) {
+            transform: rotate(150deg);
+            &:after {
+                border-color: transparent #00ff80 transparent transparent;
+            }
+
+            &:before {
+                border-color: transparent transparent #00ff80 transparent;
+            }
+        }
+        &:nth-child(7) {
+            transform: rotate(180deg);
+            &:after {
+                border-color: transparent #00ffff transparent transparent;
+            }
+
+            &:before {
+                border-color: transparent transparent #00ffff transparent;
+            }
+        }
+        &:nth-child(8) {
+            transform: rotate(210deg);
+            &:after {
+                border-color: transparent #0080ff transparent transparent;
+            }
+
+            &:before {
+                border-color: transparent transparent #0080ff transparent;
+            }
+        }
+        &:nth-child(9) {
+            transform: rotate(240deg);
+            &:after {
+                border-color: transparent #0000ff transparent transparent;
+            }
+
+            &:before {
+                border-color: transparent transparent #0000ff transparent;
+            }
+        }
+        &:nth-child(10) {
+            transform: rotate(270deg);
+            &:after {
+                border-color: transparent #8000ff transparent transparent;
+            }
+
+            &:before {
+                border-color: transparent transparent #8000ff transparent;
+            }
+        }
+        &:nth-child(11) {
+            transform: rotate(300deg);
+            &:after {
+                border-color: transparent #ff00ff transparent transparent;
+            }
+
+            &:before {
+                border-color: transparent transparent #ff00ff transparent;
+            }
+        }
+        &:nth-child(12) {
+            transform: rotate(330deg);
+            &:after {
+                border-color: transparent #ff0080 transparent transparent;
+            }
+
+            &:before {
+                border-color: transparent transparent #ff0080 transparent;
+            }
+        }
+    }
+}
+
+@keyframes rotating {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.arrow {
+    position: absolute;
+    height: 30px;
+    width: 50px;
+    left: ($diameter + 30px);
+    z-index: 500;
+    display: block;
+    top: 50%;
+    margin-top: -15px;
+    transform-origin: center right;
+}
+
+.pointer {
+    z-index: 500;
+    display: block;
+    height: 30px;
+    width: 50px;
+
+    &:before {
+        content: '';
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0 0 15px 50px;
+        border-color: transparent transparent #fff transparent;
+    }
+    &:after {
+        content: '';
+        display: block;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0 50px 15px 0;
+        border-color: transparent #fff transparent transparent;
+    }
+}
+
+.board {
+    position: relative;
+    padding: 50px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+}
