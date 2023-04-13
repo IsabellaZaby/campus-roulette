@@ -1,0 +1,142 @@
+[{
+        "category": "Campus",
+        "questions": [{
+                "question": [
+                    "Wo sind die Campus der FH Burgenland?"
+                ],
+                "answer": [
+                    "Pinkafeld, Eisenstadt",
+                    "Oberpullendorf, Jennersdorf",
+                    "Graz, St. Pölten, Linz",
+                    "Wien, Niederösterreich, Burgenland"
+                ],
+                "correct": [
+                    "Pinkafeld, Eisenstadt"
+                ]
+            },
+            {
+                "question": [
+                    "Wo steht das Energetikum?"
+                ],
+                "answer": [
+                    "Pinkafeld",
+                    "Jennersdorf",
+                    "Linz",
+                    "Irgendwo in Salzburg"
+                ],
+                "correct": [
+                    "Pinkafeld"
+                ]
+            },
+            {
+                "question": [
+                    "Wo steht das Energetikum?"
+                ],
+                "answer": [
+                    "Pinkafeld",
+                    "Jennersdorf",
+                    "Linz",
+                    "Irgendwo in Salzburg"
+                ],
+                "correct": [
+                    "Pinkafeld"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Studium",
+        "questions": [{
+                "question": [
+                    "Welche Farbe hat das Dept Wirtschaft?"
+                ],
+                "answer": [
+                    "Dunkelblau",
+                    "Blau",
+                    "Rot",
+                    "Violett"
+                ],
+                "correct": [
+                    "Dunkelblau"
+                ]
+            },
+            {
+                "question": [
+                    "Welcher Bachelorstudiengang gehört zum Dept IT?"
+                ],
+                "answer": [
+                    "BGKP",
+                    "BGET",
+                    "BSWE",
+                    "BEUM"
+                ],
+                "correct": [
+                    "BSWE"
+                ]
+            },
+            {
+                "question": [
+                    "Welche Arten des Studiums bietet die FH-Burgenland an?"
+                ],
+                "answer": [
+                    "berufsbegleitend, verlängert berfusbegleitend, vollzeit",
+                    "nur berfusbegleitend",
+                    "nur vollzeit",
+                    "Keine Ahnung, ich bin ewiger Student"
+                ],
+                "correct": [
+                    "berufsbegleitend, verlängert berfusbegleitend, vollzeit"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Mensa",
+        "questions": [{
+                "question": [
+                    "Schmeckt das Essen in der Mensa?"
+                ],
+                "answer": [
+                    "Ja",
+                    "Nein",
+                    "Weis nicht ich bin auf Diät",
+                    "Keine Angabe, ich will niemanden Beleidigen"
+                ],
+                "correct": [
+                    "Ja",
+                    "Nein",
+                    "Weis nicht ich bin auf Diät",
+                    "Keine Angabe, ich will niemanden Beleidigen"
+                ]
+            },
+            {
+                "question": [
+                    "An welchen Standorten gibt es eine Mensa?"
+                ],
+                "answer": [
+                    "Eisenstadt",
+                    "Pinkafeld",
+                    "Eisenstadt und Pinkafeld",
+                    "An keiner, ich gehe zum Kepad Hansl"
+                ],
+                "correct": [
+                    "Eisenstadt und Pinkafeld"
+                ]
+            },
+            {
+                "question": [
+                    "Gibt es auch Kaffee in der Mensa?"
+                ],
+                "answer": [
+                    "Ja",
+                    "Nein",
+                    "Keine Ahnung, ich trinke nur Tee",
+                    "Was kein Bier?"
+                ],
+                "correct": [
+                    "Ja"
+                ]
+            }
+        ]
+    }
+]
