@@ -460,5 +460,37 @@
                 ]
             }
         ]
+    }, {
+        "category": "Joker",
+        "questions": [{
+            "question": [
+                "HAHAHAHAHAHA!"
+            ],
+            "answer": [
+                "Brbl",
+                "Grubl",
+                "Blala",
+                "Hehehe"
+            ],
+            "correct": [
+                "Nein"
+            ]
+        }]
+    }, {
+        "category": "Batman",
+        "questions": [{
+            "question": [
+                "Bist du da Batman?"
+            ],
+            "answer": [
+                "Na, I bin da Batman",
+                "Na, I bin da Superman",
+                "Wos is?",
+                "Achso?"
+            ],
+            "correct": [
+                "Nein"
+            ]
+        }]
     }
 ]
