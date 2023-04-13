@@ -1,19 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.scss';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import ErrorPage from './pages/error/ErrorPage';
 import QuestionPage from './pages/question/QuestionPage';
 import RoulettePage from './pages/roulette/RoulettePage';
+import StartPage from './pages/start/StartPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
 
 const router = createBrowserRouter([
     {
         path: '/',
-        element: <App />,
+        element: <StartPage />,
         errorElement: <ErrorPage />
     },
     {
