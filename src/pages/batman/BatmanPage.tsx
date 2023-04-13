@@ -1,10 +1,18 @@
 import './BatmanPage.scss';
 import BackToRouletteButton from '../../components/back-to-roulette-button/BackToRouletteButton';
+import {useContext, useEffect} from "react";
+import {GameContext} from "../../context/GameContext";
 
 function BatmanPage() {
+    const {points, setPoints} = useContext(GameContext);
+
+    useEffect(() => {
+        setPoints(points - 3);
+    }, []);
+
     return (
         <div className="page-wrapper">
-            <h1 className="batman-headline">Batman!!</h1>
+            <h1>Batman!!</h1>
             <iframe
                 width="560"
                 height="315"
@@ -13,6 +21,7 @@ function BatmanPage() {
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowFullScreen
             ></iframe>
+            <h1>Dir wurden 3 Punkte abgezogen!</h1>
             <BackToRouletteButton countdownProps={40} />
         </div>
     );

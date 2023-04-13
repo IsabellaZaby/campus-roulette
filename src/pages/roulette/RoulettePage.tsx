@@ -10,7 +10,9 @@ function RoulettePage() {
 
     useEffect(() => {
         if (points >= 5) {
-            navigation('/finished');
+            navigation('/win');
+        } else if (points <= 5) {
+            navigation('/lose');
         }
     }, []);
     return (

@@ -10,7 +10,8 @@ import GameProvider from './context/GameContext';
 import YeahPage from './pages/yeah/YeahPage';
 import NeahPage from './pages/neah/NeahPage';
 import TimeoutPage from './pages/timeout/TimeoutPage';
-import FinishedPage from './pages/finished/FinishedPage';
+import WinPage from './pages/win/WinPage';
+import LosePage from './pages/lose/LosePage';
 import BatmanPage from './pages/batman/BatmanPage';
 import JokerPage from './pages/joker/JokerPage';
 
@@ -43,8 +44,13 @@ const router = createBrowserRouter([
         errorElement: <ErrorPage />
     },
     {
-        path: '/finished',
-        element: <FinishedPage />,
+        path: '/win',
+        element: <WinPage />,
+        errorElement: <ErrorPage />
+    },
+    {
+        path: '/lose',
+        element: <LosePage />,
         errorElement: <ErrorPage />
     },
     {

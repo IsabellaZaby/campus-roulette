@@ -34,9 +34,10 @@ function QuestionPage() {
 
     function handleButtonClick(chosenAnswer: string) {
         if (correctAnswer.includes(chosenAnswer)) {
-            navigate('/yeah');
             setPoints(points + 1);
+            navigate('/yeah');
         } else {
+            setPoints(points - 1);
             navigate('/neah');
         }
     }

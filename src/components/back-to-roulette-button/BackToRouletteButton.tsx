@@ -4,28 +4,32 @@ import { Link, useNavigate } from 'react-router-dom';
 
 interface IBackRouletteButtonProps {
     countdownProps?: number;
+    isAutomaticRedirect?: boolean;
 }
 
-function BackToRouletteButton({ countdownProps = 3 }: IBackRouletteButtonProps) {
+function BackToRouletteButton(props: IBackRouletteButtonProps) {
+    const { countdownProps = 3, isAutomaticRedirect = true } = props;
     const navigate = useNavigate();
     const [countdown, setCountdown] = useState(countdownProps);
     useEffect(() => {
-        let intervalId = setInterval(() => {
-            setCountdown((prevCountdown) => prevCountdown - 1);
-        }, 1000);
+        if (isAutomaticRedirect) {
+            let intervalId = setInterval(() => {
+                setCountdown((prevCountdown) => prevCountdown - 1);
+            }, 1000);
 
-        const timeout = setTimeout(function () {
-            navigate('/');
-        }, 1000 * countdown);
+            const timeout = setTimeout(function () {
+                navigate('/');
+            }, 1000 * countdown);
 
-        return () => {
-            clearInterval(intervalId);
-            clearTimeout(timeout);
-        };
+            return () => {
+                clearInterval(intervalId);
+                clearTimeout(timeout);
+            };
+        }
     }, []);
     return (
         <>
-            <span className="back-to-roulette-text">Automatische Weiterleitung in {countdown}</span>
+            {isAutomaticRedirect ? <span className="back-to-roulette-text">Automatische Weiterleitung in {countdown}</span> : <br />}
             <Link
                 className="button"
                 to="/"
