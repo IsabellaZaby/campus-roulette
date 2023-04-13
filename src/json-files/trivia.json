@@ -400,6 +400,19 @@
                 ]
             },
             {
+                "question": "Was ist die richtige Antwort?",
+                "answer": [
+                    "Chuck Norris",
+                    "42",
+                    "HILFE!",
+                    "Hab Angst"
+                ],
+                "correct": [
+                    "Chuck Norris",
+                    "42"
+                ]
+            },
+            {
                 "question": "Welcher bekannte österreichische Fernsehmoderator hat an der FH Burgenland studiert?",
                 "answer": [
                     "Armin Wolf",
