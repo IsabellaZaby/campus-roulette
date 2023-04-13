@@ -202,6 +202,22 @@
         ]
     },
     {
+        "category": "Batman",
+        "questions": [{
+            "question": "Bist du da Batman?",
+            "answer": [
+                "Na, I bin da Batman",
+                "Na, I bin da Superman",
+                "Wos is?",
+                "Achso?"
+            ],
+            "correct": [
+                "Na, I bin da Superman",
+                "Wos is?"
+            ]
+        }]
+    },
+    {
         "category": "Dept Wirtschaft",
         "questions": [{
                 "question": "Gibt es einen MA Studiengang Internationales Weinmarketing?",
@@ -240,22 +256,6 @@
                 ]
             }
         ]
-    },
-    {
-        "category": "Batman",
-        "questions": [{
-            "question": "Bist du da Batman?",
-            "answer": [
-                "Na, I bin da Batman",
-                "Na, I bin da Superman",
-                "Wos is?",
-                "Achso?"
-            ],
-            "correct": [
-                "Na, I bin da Superman",
-                "Wos is?"
-            ]
-        }]
     },
     {
         "category": "Dept Energie&Umwelt",
