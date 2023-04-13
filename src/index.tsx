@@ -6,28 +6,22 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import ErrorPage from './pages/error/ErrorPage';
 import QuestionPage from './pages/question/QuestionPage';
 import RoulettePage from './pages/roulette/RoulettePage';
-import StartPage from './pages/start/StartPage';
 import GameProvider from './context/GameContext';
 import YeahPage from './pages/yeah/YeahPage';
 import NeahPage from './pages/neah/NeahPage';
-import TimeoutPage from "./pages/timeout/TimeoutPage";
+import TimeoutPage from './pages/timeout/TimeoutPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
 
 const router = createBrowserRouter([
     {
         path: '/',
-        element: <StartPage />,
+        element: <RoulettePage />,
         errorElement: <ErrorPage />
     },
     {
         path: '/question',
         element: <QuestionPage />,
-        errorElement: <ErrorPage />
-    },
-    {
-        path: '/roulette',
-        element: <RoulettePage />,
         errorElement: <ErrorPage />
     },
     {

@@ -1,12 +1,13 @@
 import './QuestionPage.scss';
 import { useContext, useEffect, useState } from 'react';
-import { IQuestion } from '../../interfaces/questions';
+import { IQuestionDetails } from '../../interfaces/questions';
 import questions from '../../json-files/trivia.json';
 import { useNavigate } from 'react-router-dom';
 import { GameContext } from '../../context/GameContext';
+import BackToRouletteButton from '../../components/back-to-roulette-button/BackToRouletteButton';
 
 function QuestionPage() {
-    const { category } = useContext(GameContext);
+    const { category, setPoints, points } = useContext(GameContext);
 
     const navigate = useNavigate();
 
@@ -15,20 +16,20 @@ function QuestionPage() {
     const [answer, setAnswer] = useState<string[]>([]);
     const [correctAnswer, setCorrectAnswer] = useState<string[]>([]);
 
-    const questionList: IQuestion[] = questions.filter((item) => item.category === category);
-
     function getRandomQuestion() {
-        if (questionList[0].questions.length > 0) {
-            const randomIndex = Math.floor(Math.random() * questionList[0].questions.length);
-            setQuestion(questionList[0].questions[randomIndex].question);
-            setAnswer(questionList[0].questions[randomIndex].answer);
-            setCorrectAnswer(questionList[0].questions[randomIndex].correct);
+        const questionList: IQuestionDetails[] | undefined = questions.find((item) => item.category === category)?.questions;
+        if (questionList) {
+            const randomIndex = Math.floor(Math.random() * questionList.length);
+            setQuestion(questionList[randomIndex].question);
+            setAnswer(questionList[randomIndex].answer);
+            setCorrectAnswer(questionList[randomIndex].correct);
         }
     }
 
     function handleButtonClick(chosenAnswer: string) {
         if (correctAnswer.includes(chosenAnswer)) {
             navigate('/yeah');
+            setPoints(points + 1);
         } else {
             navigate('/neah');
         }
@@ -51,7 +52,19 @@ function QuestionPage() {
         };
     }, []);
 
-    // TODO error validation
+    if (!category) {
+        return (
+            <div className="question-container">
+                <h1>Nicht schummeln!</h1>
+                <img
+                    src="/pictures/grumpy_unicorn_2.png"
+                    alt="Grumpy Unicorn"
+                    className="question-image"
+                />
+                <BackToRouletteButton />
+            </div>
+        );
+    }
 
     return (
         <div className="question-page-wrapper">

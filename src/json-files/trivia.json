@@ -1,6 +1,8 @@
-[{
+[
+    {
         "category": "Campus",
-        "questions": [{
+        "questions": [
+            {
                 "question": "Wo sind die Campus der FH Burgenland?",
                 "answer": [
                     "Pinkafeld, Eisenstadt",
@@ -40,7 +42,8 @@
     },
     {
         "category": "Studium",
-        "questions": [{
+        "questions": [
+            {
                 "question": "Welche Farbe hat das Dept Wirtschaft?",
                 "answer": [
                     "Dunkelblau",
@@ -80,7 +83,8 @@
     },
     {
         "category": "Mensa",
-        "questions": [{
+        "questions": [
+            {
                 "question": "Schmeckt das Essen in der Mensa?",
                 "answer": [
                     "Ja",
@@ -123,7 +127,8 @@
     },
     {
         "category": "Dept IT",
-        "questions": [{
+        "questions": [
+            {
                 "question": "Wieviele BA Studiengänge gibt es?",
                 "answer": [
                     "Keinen",
@@ -163,7 +168,8 @@
     },
     {
         "category": "Dept Soziales",
-        "questions": [{
+        "questions": [
+            {
                 "question": "Gibt es auch einen MA Studiengang im Dept Soziales?",
                 "answer": [
                     "Nein",
@@ -203,23 +209,26 @@
     },
     {
         "category": "Batman",
-        "questions": [{
-            "question": "Bist du da Batman?",
-            "answer": [
-                "Na, I bin da Batman",
-                "Na, I bin da Superman",
-                "Wos is?",
-                "Achso?"
-            ],
-            "correct": [
-                "Na, I bin da Superman",
-                "Wos is?"
-            ]
-        }]
+        "questions": [
+            {
+                "question": "Bist du da Batman?",
+                "answer": [
+                    "Na, I bin da Batman",
+                    "Na, I bin da Superman",
+                    "Wos is?",
+                    "Achso?"
+                ],
+                "correct": [
+                    "Na, I bin da Superman",
+                    "Wos is?"
+                ]
+            }
+        ]
     },
     {
         "category": "Dept Wirtschaft",
-        "questions": [{
+        "questions": [
+            {
                 "question": "Gibt es einen MA Studiengang Internationales Weinmarketing?",
                 "answer": [
                     "Nein",
@@ -259,7 +268,8 @@
     },
     {
         "category": "Dept Energie&Umwelt",
-        "questions": [{
+        "questions": [
+            {
                 "question": "An welchen Campus ist das Dept Energie&Umwelt zu finden?",
                 "answer": [
                     "Pinkafeld",
@@ -299,7 +309,8 @@
     },
     {
         "category": "Dept Gesundheit",
-        "questions": [{
+        "questions": [
+            {
                 "question": "Gibt es ein Medizinstudium im Dept Gesundheit?",
                 "answer": [
                     "Nein",
@@ -339,7 +350,8 @@
     },
     {
         "category": "FunFacts",
-        "questions": [{
+        "questions": [
+            {
                 "question": "Ist die FH-Burgenland die einzige FH im Burgenland?",
                 "answer": [
                     "Nein, Da gibt es noch die Weinakademie",
@@ -379,7 +391,8 @@
     },
     {
         "category": "Gebäude",
-        "questions": [{
+        "questions": [
+            {
                 "question": "Wo steht das Seminargebäude/Zentrum?",
                 "answer": [
                     "Pinkafeld",
@@ -419,18 +432,20 @@
     },
     {
         "category": "Joker",
-        "questions": [{
-            "question": "AHAHAHAHA!",
-            "answer": [
-                "Brbl",
-                "Grubl",
-                "Blala",
-                "Hehehe"
-            ],
-            "correct": [
-                "Blala",
-                "Hehehe"
-            ]
-        }]
+        "questions": [
+            {
+                "question": "AHAHAHAHA!",
+                "answer": [
+                    "Brbl",
+                    "Grubl",
+                    "Blala",
+                    "Hehehe"
+                ],
+                "correct": [
+                    "Blala",
+                    "Hehehe"
+                ]
+            }
+        ]
     }
 ]

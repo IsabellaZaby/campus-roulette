@@ -11,7 +11,7 @@ function BackToRouletteButton() {
         }, 1000);
 
         const timeout = setTimeout(function () {
-            navigate('/roulette');
+            navigate('/');
         }, 3000);
 
         return () => {
@@ -24,7 +24,7 @@ function BackToRouletteButton() {
             <span className="back-to-roulette-text">Automatische Weiterleitung in {countdown}</span>
             <Link
                 className="button start-page-button-text"
-                to="/roulette"
+                to="/"
             >
                 Zum Start
             </Link>
