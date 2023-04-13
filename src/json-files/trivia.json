@@ -1,8 +1,6 @@
-[
-    {
+[{
         "category": "Campus",
-        "questions": [
-            {
+        "questions": [{
                 "question": "Wo befinden sich die Campus der FH Burgenland?",
                 "answer": [
                     "Pinkafeld & Eisenstadt",
@@ -54,8 +52,7 @@
     },
     {
         "category": "Studium",
-        "questions": [
-            {
+        "questions": [{
                 "question": "Welche Farbe hat das Dept. Wirtschaft?",
                 "answer": [
                     "Dunkelblau",
@@ -119,13 +116,12 @@
     },
     {
         "category": "Mensa",
-        "questions": [
-            {
+        "questions": [{
                 "question": "Schmeckt das Essen in der Mensa?",
                 "answer": [
                     "Ja",
                     "Nein",
-                    "Weis nicht, ich bin auf Diät",
+                    "Weiß nicht, ich bin auf Diät",
                     "Keine Angabe, ich will niemanden Beleidigen"
                 ],
                 "correct": [
@@ -163,8 +159,7 @@
     },
     {
         "category": "Dept. IT",
-        "questions": [
-            {
+        "questions": [{
                 "question": "Wie viele BA Studiengänge gibt es auf der FH Burgenland?",
                 "answer": [
                     "Keinen",
@@ -204,8 +199,7 @@
     },
     {
         "category": "Dept. Soziales",
-        "questions": [
-            {
+        "questions": [{
                 "question": "Gibt es auch einen MA Studiengang im Dept. Soziales der FH Burgenland?",
                 "answer": [
                     "Nein",
@@ -245,26 +239,23 @@
     },
     {
         "category": "Batman",
-        "questions": [
-            {
-                "question": "Bist du da Batman?",
-                "answer": [
-                    "Na, I bin da Batman",
-                    "Na, I bin da Superman",
-                    "Wos is?",
-                    "Achso?"
-                ],
-                "correct": [
-                    "Na, I bin da Superman",
-                    "Wos is?"
-                ]
-            }
-        ]
+        "questions": [{
+            "question": "Bist du da Batman?",
+            "answer": [
+                "Na, I bin da Batman",
+                "Na, I bin da Superman",
+                "Wos is?",
+                "Achso?"
+            ],
+            "correct": [
+                "Na, I bin da Superman",
+                "Wos is?"
+            ]
+        }]
     },
     {
         "category": "Dept. Wirtschaft",
-        "questions": [
-            {
+        "questions": [{
                 "question": "Gibt es einen MA Studiengang Internationales Weinmarketing auf der FH Burgenland?",
                 "answer": [
                     "Nein",
@@ -304,8 +295,7 @@
     },
     {
         "category": "Dept. Energie&Umwelt",
-        "questions": [
-            {
+        "questions": [{
                 "question": "An welchen Campus ist das Dept. Energie&Umwelt der FH Burgenland zu finden?",
                 "answer": [
                     "Pinkafeld",
@@ -345,8 +335,7 @@
     },
     {
         "category": "Dept. Gesundheit",
-        "questions": [
-            {
+        "questions": [{
                 "question": "Gibt es ein Medizinstudium im Dept. Gesundheit der FH Burgenland?",
                 "answer": [
                     "Nein",
@@ -386,8 +375,7 @@
     },
     {
         "category": "FunFacts",
-        "questions": [
-            {
+        "questions": [{
                 "question": "Ist die FH-Burgenland die einzige FH im Burgenland?",
                 "answer": [
                     "Nein, Da gibt es noch die Weinakademie",
@@ -464,8 +452,7 @@
     },
     {
         "category": "Gebäude",
-        "questions": [
-            {
+        "questions": [{
                 "question": "Wo befindet sich das Seminargebäude der FH Burgenland?",
                 "answer": [
                     "Pinkafeld",
@@ -505,20 +492,18 @@
     },
     {
         "category": "Joker",
-        "questions": [
-            {
-                "question": "AHAHAHAHA!",
-                "answer": [
-                    "Brbl",
-                    "Grubl",
-                    "Blala",
-                    "Hehehe"
-                ],
-                "correct": [
-                    "Blala",
-                    "Hehehe"
-                ]
-            }
-        ]
+        "questions": [{
+            "question": "AHAHAHAHA!",
+            "answer": [
+                "Brbl",
+                "Grubl",
+                "Blala",
+                "Hehehe"
+            ],
+            "correct": [
+                "Blala",
+                "Hehehe"
+            ]
+        }]
     }
 ]
