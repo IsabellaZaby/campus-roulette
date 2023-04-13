@@ -75,6 +75,7 @@ function QuestionPage() {
         <div className="page-wrapper">
             <div className="question-container">
                 <>
+                    <h2>{category}</h2>
                     <h1>{question}</h1>
                     <span className="question-timer-text">
                         Zeit übrig: <strong>{countdown}</strong>
