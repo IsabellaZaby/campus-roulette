@@ -4,14 +4,14 @@ import { IQuestionDetails } from '../../interfaces/questions';
 import questions from '../../json-files/trivia.json';
 import { useNavigate } from 'react-router-dom';
 import { GameContext } from '../../context/GameContext';
-import BackToRouletteButton from '../../components/back-to-roulette-button/BackToRouletteButton';
+import NoCheatingDisplay from '../../components/no-cheating-display/NoCheatingDisplay';
 
 function QuestionPage() {
     const { category, setPoints, points } = useContext(GameContext);
 
     const navigate = useNavigate();
 
-    const [countdown, setCountdown] = useState(30);
+    const [countdown, setCountdown] = useState(10);
     const [question, setQuestion] = useState('');
     const [answer, setAnswer] = useState<string[]>([]);
     const [correctAnswer, setCorrectAnswer] = useState<string[]>([]);
@@ -44,7 +44,7 @@ function QuestionPage() {
 
         const timeout = setTimeout(function () {
             navigate('/timeout');
-        }, 30000);
+        }, 10000);
 
         return () => {
             clearInterval(intervalId);
@@ -53,17 +53,7 @@ function QuestionPage() {
     }, []);
 
     if (!category) {
-        return (
-            <div className="question-container">
-                <h1>Nicht schummeln!</h1>
-                <img
-                    src="/pictures/grumpy_unicorn_2.png"
-                    alt="Grumpy Unicorn"
-                    className="question-image"
-                />
-                <BackToRouletteButton />
-            </div>
-        );
+        return <NoCheatingDisplay />;
     }
 
     return (
