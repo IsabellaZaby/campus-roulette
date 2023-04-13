@@ -4,8 +4,8 @@ import './index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
-import ErrorPage from "./ErrorPage";
-import QuestionPage from "./QuestionPage";
+import ErrorPage from "./pages/error/ErrorPage";
+import QuestionPage from "./pages/question/QuestionPage";
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
