@@ -7,6 +7,7 @@ import ErrorPage from './pages/error/ErrorPage';
 import QuestionPage from './pages/question/QuestionPage';
 import RoulettePage from './pages/roulette/RoulettePage';
 import StartPage from './pages/start/StartPage';
+import GameProvider from './context/GameContext';
 import YeahPage from './pages/yeah/YeahPage';
 import NeahPage from './pages/neah/NeahPage';
 
@@ -43,7 +44,9 @@ const router = createBrowserRouter([
 
 root.render(
     <React.StrictMode>
-        <RouterProvider router={router} />
+        <GameProvider>
+            <RouterProvider router={router} />
+        </GameProvider>
     </React.StrictMode>
 );
 
