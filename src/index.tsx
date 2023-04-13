@@ -3,31 +3,35 @@ import ReactDOM from 'react-dom/client';
 import './index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import {createBrowserRouter, RouterProvider} from "react-router-dom";
-import ErrorPage from "./pages/error/ErrorPage";
-import QuestionPage from "./pages/question/QuestionPage";
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import ErrorPage from './pages/error/ErrorPage';
+import QuestionPage from './pages/question/QuestionPage';
+import RoulettePage from './pages/roulette/RoulettePage';
 
-const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
-);
+const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
 
 const router = createBrowserRouter([
     {
-        path: "/",
-        element: <App/>,
-        errorElement: <ErrorPage/>
+        path: '/',
+        element: <App />,
+        errorElement: <ErrorPage />
     },
     {
-        path: "/question",
-        element: <QuestionPage/>,
-        errorElement: <ErrorPage/>
+        path: '/question',
+        element: <QuestionPage />,
+        errorElement: <ErrorPage />
+    },
+    {
+        path: '/roulette',
+        element: <RoulettePage />,
+        errorElement: <ErrorPage />
     }
 ]);
 
 root.render(
-  <React.StrictMode>
-      <RouterProvider router={router} />
-  </React.StrictMode>
+    <React.StrictMode>
+        <RouterProvider router={router} />
+    </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
