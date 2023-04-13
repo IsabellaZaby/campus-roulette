@@ -30,7 +30,7 @@ function BackToRouletteButton(props: IBackRouletteButtonProps) {
         }
         if (isHardReloadPage) {
             navigate('/');
-            location.reload();
+            window.location.reload();
         }
     }, []);
     return (
