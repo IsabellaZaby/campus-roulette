@@ -10,7 +10,7 @@ import StartPage from './pages/start/StartPage';
 import GameProvider from './context/GameContext';
 import YeahPage from './pages/yeah/YeahPage';
 import NeahPage from './pages/neah/NeahPage';
-
+import TimeoutPage from "./pages/timeout/TimeoutPage";
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
 
@@ -38,6 +38,11 @@ const router = createBrowserRouter([
     {
         path: '/neah',
         element: <NeahPage />,
+        errorElement: <ErrorPage />
+    },
+    {
+        path: '/timeout',
+        element: <TimeoutPage />,
         errorElement: <ErrorPage />
     }
 ]);

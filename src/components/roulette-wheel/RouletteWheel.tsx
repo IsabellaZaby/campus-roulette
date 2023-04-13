@@ -2,8 +2,10 @@ import './RouletteWheel.scss';
 import { useContext, useState } from 'react';
 import questions from '../../json-files/trivial.json';
 import { GameContext } from '../../context/GameContext';
+import {useNavigate} from "react-router-dom";
 
 function RouletteWheel() {
+    const navigate = useNavigate();
     const [spinning, setSpinning] = useState(false);
     const { setCategory } = useContext(GameContext);
 
@@ -22,7 +24,8 @@ function RouletteWheel() {
 
         const CSSTemplate = `@keyframes spinning {from { transform: rotate(0); } to {  transform: rotate(${spinValue}deg); }}`;
         styleSheet.insertRule(CSSTemplate, styleSheet.cssRules.length);
-        setTimeout(() => setCategory(questions[prizePosition].category), 5500);
+        setCategory(questions[prizePosition].category);
+        setTimeout(() => navigate('/question'), 5500);
     }
 
     return (
