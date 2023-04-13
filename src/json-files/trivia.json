@@ -1,8 +1,6 @@
-[
-    {
+[{
         "category": "Campus",
-        "questions": [
-            {
+        "questions": [{
                 "question": "Wo sind die Campus der FH Burgenland?",
                 "answer": [
                     "Pinkafeld, Eisenstadt",
@@ -12,8 +10,19 @@
                 ],
                 "correct": [
                     "Pinkafeld, Eisenstadt"
+                ]
+            },
+            {
+                "question": "Wann wurde die FH Burgenland gegründet?",
+                "answer": [
+                    "1984",
+                    "1994",
+                    "2004",
+                    "2014"
                 ],
-                "alreadyAnswered": false
+                "correct": [
+                    "1994"
+                ]
             },
             {
                 "question": "Wo steht das Energetikum?",
@@ -25,29 +34,25 @@
                 ],
                 "correct": [
                     "Pinkafeld"
-                ],
-                "alreadyAnswered": false
-
+                ]
             },
             {
-                "question": "Wo steht das Energetikum?",
+                "question": "Wo befindet sich der Hauptcampus der FH Burgenland?",
                 "answer": [
                     "Pinkafeld",
                     "Jennersdorf",
-                    "Linz",
-                    "Irgendwo in Salzburg"
+                    "Eisenstadt",
+                    "Unterstinkenbrunn"
                 ],
                 "correct": [
-                    "Pinkafeld"
-                ],
-                "alreadyAnswered": false
+                    "Eisenstadt"
+                ]
             }
         ]
     },
     {
         "category": "Studium",
-        "questions": [
-            {
+        "questions": [{
                 "question": "Welche Farbe hat das Dept Wirtschaft?",
                 "answer": [
                     "Dunkelblau",
@@ -57,8 +62,19 @@
                 ],
                 "correct": [
                     "Dunkelblau"
+                ]
+            },
+            {
+                "question": "Wie viele BA-Studiengänge gibt es insgesamt?",
+                "answer": [
+                    "15",
+                    "201",
+                    "5",
+                    "32"
                 ],
-                "alreadyAnswered": false
+                "correct": [
+                    "15"
+                ]
             },
             {
                 "question": "Welcher Bachelorstudiengang gehört zum Dept IT?",
@@ -70,8 +86,7 @@
                 ],
                 "correct": [
                     "BSWE"
-                ],
-                "alreadyAnswered": false
+                ]
             },
             {
                 "question": "Welche Arten des Studiums bietet die FH-Burgenland an?",
@@ -83,15 +98,25 @@
                 ],
                 "correct": [
                     "berufsbegleitend, verlängert berfusbegleitend, vollzeit, berufsermöglichend"
+                ]
+            },
+            {
+                "question": "Welcher Studiengang wurde 2021 als Top-Studiengang ausgezeichnet?",
+                "answer": [
+                    "Gesundheits- und Krankenpflege",
+                    "Software Engineering",
+                    "Soziales Arbeiten",
+                    "Weiß nicht..."
                 ],
-                "alreadyAnswered": false
+                "correct": [
+                    "Gesundheits- und Krankenpflege"
+                ]
             }
         ]
     },
     {
         "category": "Mensa",
-        "questions": [
-            {
+        "questions": [{
                 "question": "Schmeckt das Essen in der Mensa?",
                 "answer": [
                     "Ja",
@@ -104,8 +129,7 @@
                     "Nein",
                     "Weis nicht ich bin auf Diät",
                     "Keine Angabe, ich will niemanden Beleidigen"
-                ],
-                "alreadyAnswered": false
+                ]
             },
             {
                 "question": "An welchen Standorten gibt es eine Mensa?",
@@ -117,8 +141,7 @@
                 ],
                 "correct": [
                     "Eisenstadt und Pinkafeld"
-                ],
-                "alreadyAnswered": false
+                ]
             },
             {
                 "question": "Gibt es auch Kaffee in der Mensa?",
@@ -130,15 +153,13 @@
                 ],
                 "correct": [
                     "Ja"
-                ],
-                "alreadyAnswered": false
+                ]
             }
         ]
     },
     {
         "category": "Dept IT",
-        "questions": [
-            {
+        "questions": [{
                 "question": "Wieviele BA Studiengänge gibt es?",
                 "answer": [
                     "Keinen",
@@ -148,8 +169,7 @@
                 ],
                 "correct": [
                     "Drei"
-                ],
-                "alreadyAnswered": false
+                ]
             },
             {
                 "question": "Mit welchen Titel schließt man den Studiengang BIMK ab?",
@@ -161,8 +181,7 @@
                 ],
                 "correct": [
                     "BA"
-                ],
-                "alreadyAnswered": false
+                ]
             },
             {
                 "question": "Wieviele MA Lehrgänge gibt es?",
@@ -174,15 +193,13 @@
                 ],
                 "correct": [
                     "Vier"
-                ],
-                "alreadyAnswered": false
+                ]
             }
         ]
     },
     {
         "category": "Dept Soziales",
-        "questions": [
-            {
+        "questions": [{
                 "question": "Gibt es auch einen MA Studiengang im Dept Soziales?",
                 "answer": [
                     "Nein",
@@ -192,8 +209,7 @@
                 ],
                 "correct": [
                     "Nein"
-                ],
-                "alreadyAnswered": false
+                ]
             },
             {
                 "question": "Welche BA Studiengänge gibt es im Dept Soziales?",
@@ -205,8 +221,7 @@
                 ],
                 "correct": [
                     "BSOZ"
-                ],
-                "alreadyAnswered": false
+                ]
             },
             {
                 "question": "Bietet das Dept Soziales auch berufsbegleitende Studiengänge an?",
@@ -218,34 +233,29 @@
                 ],
                 "correct": [
                     "Nein"
-                ],
-                "alreadyAnswered": false
+                ]
             }
         ]
     },
     {
         "category": "Batman",
-        "questions": [
-            {
-                "question": "Bist du da Batman?",
-                "answer": [
-                    "Na, I bin da Batman",
-                    "Na, I bin da Superman",
-                    "Wos is?",
-                    "Achso?"
-                ],
-                "correct": [
-                    "Na, I bin da Superman",
-                    "Wos is?"
-                ],
-                "alreadyAnswered": false
-            }
-        ]
+        "questions": [{
+            "question": "Bist du da Batman?",
+            "answer": [
+                "Na, I bin da Batman",
+                "Na, I bin da Superman",
+                "Wos is?",
+                "Achso?"
+            ],
+            "correct": [
+                "Na, I bin da Superman",
+                "Wos is?"
+            ]
+        }]
     },
     {
         "category": "Dept Wirtschaft",
-        "questions": [
-            {
+        "questions": [{
                 "question": "Gibt es einen MA Studiengang Internationales Weinmarketing?",
                 "answer": [
                     "Nein",
@@ -255,8 +265,7 @@
                 ],
                 "correct": [
                     "Ja"
-                ],
-                "alreadyAnswered": false
+                ]
             },
             {
                 "question": "An welchen Campus werden Studiengänge des Dept. Wirtschaft angeboten?",
@@ -268,8 +277,7 @@
                 ],
                 "correct": [
                     "Eisenstadt"
-                ],
-                "alreadyAnswered": false
+                ]
             },
             {
                 "question": "Welche Studienform bietet der Studiengang International Sustainable Business?",
@@ -281,15 +289,13 @@
                 ],
                 "correct": [
                     "Berufsermöglichend"
-                ],
-                "alreadyAnswered": false
+                ]
             }
         ]
     },
     {
         "category": "Dept Energie&Umwelt",
-        "questions": [
-            {
+        "questions": [{
                 "question": "An welchen Campus ist das Dept Energie&Umwelt zu finden?",
                 "answer": [
                     "Pinkafeld",
@@ -299,8 +305,7 @@
                 ],
                 "correct": [
                     "Pinkafeld"
-                ],
-                "alreadyAnswered": false
+                ]
             },
             {
                 "question": "Wieviele MA Studiengänge werden angeboten?",
@@ -312,8 +317,7 @@
                 ],
                 "correct": [
                     "Drei"
-                ],
-                "alreadyAnswered": false
+                ]
             },
             {
                 "question": "Gibt es einen BA Studiengang Photonik und Neuronik?",
@@ -325,15 +329,13 @@
                 ],
                 "correct": [
                     "Ja"
-                ],
-                "alreadyAnswered": false
+                ]
             }
         ]
     },
     {
         "category": "Dept Gesundheit",
-        "questions": [
-            {
+        "questions": [{
                 "question": "Gibt es ein Medizinstudium im Dept Gesundheit?",
                 "answer": [
                     "Nein",
@@ -343,8 +345,7 @@
                 ],
                 "correct": [
                     "Nein"
-                ],
-                "alreadyAnswered": false
+                ]
             },
             {
                 "question": "Gibt es den Studiengang BA Hebammen?",
@@ -356,8 +357,7 @@
                 ],
                 "correct": [
                     "Ja"
-                ],
-                "alreadyAnswered": false
+                ]
             },
             {
                 "question": "Auf welchen Standorten ist das Dept Gesundheit zu finden?",
@@ -369,15 +369,13 @@
                 ],
                 "correct": [
                     "Pinkafeld"
-                ],
-                "alreadyAnswered": false
+                ]
             }
         ]
     },
     {
         "category": "FunFacts",
-        "questions": [
-            {
+        "questions": [{
                 "question": "Ist die FH-Burgenland die einzige FH im Burgenland?",
                 "answer": [
                     "Nein, Da gibt es noch die Weinakademie",
@@ -387,8 +385,7 @@
                 ],
                 "correct": [
                     "Ja"
-                ],
-                "alreadyAnswered": false
+                ]
             },
             {
                 "question": "Gibt es genug Steckdosen in den Räumen der FH für IT Studierende?",
@@ -400,8 +397,31 @@
                 ],
                 "correct": [
                     "Nein, Es sind immer zuwenig Steckdosen"
+                ]
+            },
+            {
+                "question": "Welcher bekannte österreichische Fernsehmoderator hat an der FH Burgenland studiert?",
+                "answer": [
+                    "Armin Wolf",
+                    "Armin Assinger",
+                    "Thomas Brezina",
+                    "Tom Turbo"
                 ],
-                "alreadyAnswered": false
+                "correct": [
+                    "Armin Wolf"
+                ]
+            },
+            {
+                "question": "Wie viele MA bietet die FH Burgenland an?",
+                "answer": [
+                    "Acht",
+                    "Achtundfünzig",
+                    "Achthundertundfünfzig",
+                    "Achttausendzweihunderfünzig"
+                ],
+                "correct": [
+                    "Acht"
+                ]
             },
             {
                 "question": "Wieviele Kilometer sind zwischen Campus Eisenstadt und Pinkafeld?",
@@ -413,15 +433,13 @@
                 ],
                 "correct": [
                     "84,8 km"
-                ],
-                "alreadyAnswered": false
+                ]
             }
         ]
     },
     {
         "category": "Gebäude",
-        "questions": [
-            {
+        "questions": [{
                 "question": "Wo steht das Seminargebäude/Zentrum?",
                 "answer": [
                     "Pinkafeld",
@@ -431,8 +449,7 @@
                 ],
                 "correct": [
                     "Pinkafeld"
-                ],
-                "alreadyAnswered": false
+                ]
             },
             {
                 "question": "Wieviele Stockwerke hat das HG in Eisenstadt?",
@@ -444,8 +461,7 @@
                 ],
                 "correct": [
                     "Zwei"
-                ],
-                "alreadyAnswered": false
+                ]
             },
             {
                 "question": "Wo befindet sich das Sensoriklabor?",
@@ -457,28 +473,24 @@
                 ],
                 "correct": [
                     "Am Cmapus Eisenstadt"
-                ],
-                "alreadyAnswered": false
+                ]
             }
         ]
     },
     {
         "category": "Joker",
-        "questions": [
-            {
-                "question": "AHAHAHAHA!",
-                "answer": [
-                    "Brbl",
-                    "Grubl",
-                    "Blala",
-                    "Hehehe"
-                ],
-                "correct": [
-                    "Blala",
-                    "Hehehe"
-                ],
-                "alreadyAnswered": false
-            }
-        ]
+        "questions": [{
+            "question": "AHAHAHAHA!",
+            "answer": [
+                "Brbl",
+                "Grubl",
+                "Blala",
+                "Hehehe"
+            ],
+            "correct": [
+                "Blala",
+                "Hehehe"
+            ]
+        }]
     }
 ]
