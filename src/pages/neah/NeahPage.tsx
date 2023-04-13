@@ -1,4 +1,5 @@
 import './NeahPage.scss';
+import { Link } from 'react-router-dom';
 
 function NeahPage() {
     return (
@@ -10,12 +11,12 @@ function NeahPage() {
                     className="neah-img"
                     alt="Bild eines grantigen Einhorns"
                 />
-                 <a
-                        className="button start-page-button-text"
-                        href="/roulette"
-                    >
-                        Weiter
-                    </a>
+                <Link
+                    className="button start-page-button-text"
+                    to="/roulette"
+                >
+                    Weiter
+                </Link>
             </div>
         </div>
     );

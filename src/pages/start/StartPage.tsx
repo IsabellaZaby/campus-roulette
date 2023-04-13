@@ -1,15 +1,16 @@
 import './StartPage.scss';
+import { Link } from 'react-router-dom';
 
 function StartPage() {
     return (
         <div className="start-page-wrapper">
             <h1>Willkommen zum Campus Roulette!</h1>
-            <a
+            <Link
                 className="button start-page-button-text"
-                href="/roulette"
+                to="/roulette"
             >
                 START
-            </a>
+            </Link>
         </div>
     );
 }
