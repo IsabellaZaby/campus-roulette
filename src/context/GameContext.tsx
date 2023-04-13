@@ -13,6 +13,12 @@ function GameProvider({ children }: IGameProviderProps) {
     const [category, setCategory] = useState('');
     const [questionState, setQuestionState] = useState(questions);
 
+    function reset() {
+        setPoints(0);
+        setCategory('');
+        setQuestionState(questions);
+    }
+
     function setAlreadyAnswered(questionParam: string) {
         const question = questions.find((question) => question.category === category);
         if (question) {
@@ -30,7 +36,8 @@ function GameProvider({ children }: IGameProviderProps) {
                 category,
                 setCategory,
                 questions: questionState,
-                setAlreadyAnswered
+                setAlreadyAnswered,
+                reset
             }}
         >
             {children}

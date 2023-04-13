@@ -4,11 +4,17 @@ import { FireworksHandlers } from 'fireworks-js';
 import Fireworks from '@fireworks-js/react';
 import { GameContext } from '../../context/GameContext';
 import NoCheatingDisplay from '../../components/no-cheating-display/NoCheatingDisplay';
-import BackToRouletteButton from '../../components/back-to-roulette-button/BackToRouletteButton';
+import { useNavigate } from 'react-router-dom';
 
 function WinPage() {
-    const { points } = useContext(GameContext);
+    const { points, reset } = useContext(GameContext);
     const ref = useRef<FireworksHandlers>(null);
+    const navigate = useNavigate();
+
+    function onClick() {
+        reset();
+        navigate('/');
+    }
 
     if (points < 5) {
         return <NoCheatingDisplay />;
@@ -17,7 +23,7 @@ function WinPage() {
     return (
         <div className="page-wrapper">
             <h1 className="win-text">Gewonnen!</h1>
-            <BackToRouletteButton isAutomaticRedirect={false} isHardReloadPage={true} />
+            <button onClick={onClick}>Nochmal spielen</button>
             <Fireworks
                 ref={ref}
                 className="fireworks"

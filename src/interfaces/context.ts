@@ -7,4 +7,5 @@ export interface IGameContext {
     setCategory: (category: string) => void;
     questions: IQuestion[];
     setAlreadyAnswered: (questionParam: string) => void;
+    reset: () => void;
 }

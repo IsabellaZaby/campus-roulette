@@ -2,10 +2,17 @@ import './LosePage.scss';
 import React, { useContext } from 'react';
 import { GameContext } from '../../context/GameContext';
 import NoCheatingDisplay from '../../components/no-cheating-display/NoCheatingDisplay';
-import BackToRouletteButton from '../../components/back-to-roulette-button/BackToRouletteButton';
+import { useNavigate } from 'react-router-dom';
 
 function LosePage() {
-    const { points } = useContext(GameContext);
+    const { points, reset } = useContext(GameContext);
+
+    const navigate = useNavigate();
+
+    function onClick() {
+        reset();
+        navigate('/');
+    }
 
     if (points > -5) {
         return <NoCheatingDisplay />;
@@ -22,7 +29,7 @@ function LosePage() {
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowFullScreen
             ></iframe>
-            <BackToRouletteButton isAutomaticRedirect={false} isHardReloadPage={true} />
+            <button onClick={onClick}>Nochmal spielen</button>
         </div>
     );
 }
