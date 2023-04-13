@@ -7,6 +7,8 @@ import ErrorPage from './pages/error/ErrorPage';
 import QuestionPage from './pages/question/QuestionPage';
 import RoulettePage from './pages/roulette/RoulettePage';
 import StartPage from './pages/start/StartPage';
+import YeahPage from './pages/yeah/YeahPage';
+import NeahPage from './pages/neah/neahPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
 
@@ -24,6 +26,16 @@ const router = createBrowserRouter([
     {
         path: '/roulette',
         element: <RoulettePage />,
+        errorElement: <ErrorPage />
+    },
+    {
+        path: '/yeah',
+        element: <YeahPage />,
+        errorElement: <ErrorPage />
+    },
+    {
+        path: '/neah',
+        element: <NeahPage />,
         errorElement: <ErrorPage />
     }
 ]);

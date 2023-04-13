@@ -1,0 +1,27 @@
+.yeah-page-wrapper {
+    width: 100%;
+    height: 100vh;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.yeah-container {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.yeah-text {
+    font-size: 4rem;
+    font-weight: bold;
+    color: SlateBlue;
+    margin: 10px;
+}
+
+.yeah-img {
+    max-width: 50%;
+    max-height: 50%;
+}
