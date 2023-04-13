@@ -27,18 +27,10 @@ function QuestionPage() {
     }
 
     function handleButtonClick(chosenAnswer: string) {
-        if (correctAnswer.length > 1) {
-            if (correctAnswer.includes(chosenAnswer)) {
-                navigate('/yeah');
-            } else {
-                navigate('/neah');
-            }
+        if (correctAnswer.includes(chosenAnswer)) {
+            navigate('/yeah');
         } else {
-            if (chosenAnswer === chosenAnswer) {
-                navigate('/yeah');
-            } else {
-                navigate('/neah');
-            }
+            navigate('/neah');
         }
     }
 
