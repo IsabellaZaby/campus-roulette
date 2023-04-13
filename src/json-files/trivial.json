@@ -324,39 +324,39 @@
     {
         "category": "FunFacts",
         "questions": [{
-                "question": "Gibt es auch einen MA Studiengang im Dept Soziales?",
+                "question": "Ist die FH-Burgenland die einzige FH im Burgenland?",
                 "answer": [
-                    "Nein",
+                    "Nein, Da gibt es noch die Weinakademie",
                     "Ja",
-                    "Zwei",
-                    "Fünf"
+                    "Echt? Das Burgenland hat eine FH?",
+                    "In Neusiedl ist noch die Knödlakademie"
                 ],
                 "correct": [
-                    "Nein"
+                    "Ja"
                 ]
             },
             {
-                "question": "Welche BA Studiengänge gibt es im Dept Soziales?",
+                "question": "Gibt es genug Steckdosen in den Räumen der FH für IT Studierende?",
                 "answer": [
-                    "BJUS",
-                    "BJUS, BSOZ",
-                    "BSOZ",
-                    "BITI"
+                    "Nein, Es sind immer zuwenig Steckdosen",
+                    "Ja, ich hab keinen Laptop",
+                    "Weiß nicht, Ich suche noch",
+                    "Mit Solarenergie lässt sich alles lösen"
                 ],
                 "correct": [
-                    "BSOZ"
+                    "Nein, Es sind immer zuwenig Steckdosen"
                 ]
             },
             {
-                "question": "Bietet das Dept Soziales auch berufsbegleitende Studiengänge an?",
+                "question": "Wieviele Kilometer sind zwischen Campus Eisenstadt und Pinkafeld?",
                 "answer": [
-                    "Es gibt ein Dept. Soziales?",
-                    "Ja, alle sind berufbegleitend",
-                    "Es gibt nur berufsbegleitende Studiengänge im Dept. Soziales",
-                    "Nein"
+                    "84,8 km",
+                    "Es gibt zwei Campus?",
+                    "125,45 km",
+                    "34,5 km"
                 ],
                 "correct": [
-                    "Nein"
+                    "84,8 km"
                 ]
             }
         ]
@@ -364,39 +364,39 @@
     {
         "category": "Gebäude",
         "questions": [{
-                "question": "Gibt es auch einen MA Studiengang im Dept Soziales?",
+                "question": "Wo steht das Seminargebäude/Zentrum?",
                 "answer": [
-                    "Nein",
-                    "Ja",
+                    "Pinkafeld",
+                    "Eisenstadt",
+                    "Oberpullendorf",
+                    "Jennersdorf"
+                ],
+                "correct": [
+                    "Pinkafeld"
+                ]
+            },
+            {
+                "question": "Wieviele Stockwerke hat das HG in Eisenstadt?",
+                "answer": [
                     "Zwei",
-                    "Fünf"
+                    "Fünf",
+                    "Eins",
+                    "Es gibt nur Kellerebenen"
                 ],
                 "correct": [
-                    "Nein"
+                    "Zwei"
                 ]
             },
             {
-                "question": "Welche BA Studiengänge gibt es im Dept Soziales?",
+                "question": "Wo befindet sich das Sensoriklabor?",
                 "answer": [
-                    "BJUS",
-                    "BJUS, BSOZ",
-                    "BSOZ",
-                    "BITI"
+                    "Am Cmapus Eisenstadt",
+                    "So was gibt es auf der FH?",
+                    "Am Campus Pinkafeld",
+                    "Am Campus Oberstinkenbrunn"
                 ],
                 "correct": [
-                    "BSOZ"
-                ]
-            },
-            {
-                "question": "Bietet das Dept Soziales auch berufsbegleitende Studiengänge an?",
-                "answer": [
-                    "Es gibt ein Dept. Soziales?",
-                    "Ja, alle sind berufbegleitend",
-                    "Es gibt nur berufsbegleitende Studiengänge im Dept. Soziales",
-                    "Nein"
-                ],
-                "correct": [
-                    "Nein"
+                    "Am Cmapus Eisenstadt"
                 ]
             }
         ]
