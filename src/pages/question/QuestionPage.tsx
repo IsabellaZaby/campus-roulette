@@ -1,13 +1,13 @@
 import './QuestionPage.scss';
 import { useContext, useEffect, useState } from 'react';
 import { IQuestionDetails } from '../../interfaces/questions';
-import questions from '../../json-files/trivia.json';
 import { useNavigate } from 'react-router-dom';
 import { GameContext } from '../../context/GameContext';
 import NoCheatingDisplay from '../../components/no-cheating-display/NoCheatingDisplay';
+import EverythingAnswered from '../../components/everything-answered/EverythingAnswered';
 
 function QuestionPage() {
-    const { category, setPoints, points } = useContext(GameContext);
+    const { category, setPoints, points, setAlreadyAnswered, questions } = useContext(GameContext);
 
     const navigate = useNavigate();
 
@@ -15,6 +15,7 @@ function QuestionPage() {
     const [question, setQuestion] = useState('');
     const [answer, setAnswer] = useState<string[]>([]);
     const [correctAnswer, setCorrectAnswer] = useState<string[]>([]);
+    const [everythingAnswered, setEverythingAnswered] = useState(false);
 
     function getRandomQuestion() {
         if (category === 'Batman') {
@@ -23,22 +24,26 @@ function QuestionPage() {
             navigate('/joker');
         } else {
             const questionList: IQuestionDetails[] | undefined = questions.find((item) => item.category === category)?.questions;
-            if (questionList) {
+            if (questionList && questionList.length > 0) {
                 const randomIndex = Math.floor(Math.random() * questionList.length);
                 setQuestion(questionList[randomIndex].question);
                 setAnswer(questionList[randomIndex].answer);
                 setCorrectAnswer(questionList[randomIndex].correct);
+            } else {
+                setEverythingAnswered(true);
             }
         }
     }
 
     function handleButtonClick(chosenAnswer: string) {
         if (correctAnswer.includes(chosenAnswer)) {
-            navigate('/yeah');
             setPoints(points + 1);
+            navigate('/yeah');
         } else {
+            setPoints(points - 1);
             navigate('/neah');
         }
+        setAlreadyAnswered(question);
     }
 
     useEffect(() => {
@@ -62,10 +67,15 @@ function QuestionPage() {
         return <NoCheatingDisplay />;
     }
 
+    if (everythingAnswered) {
+        return <EverythingAnswered />;
+    }
+
     return (
         <div className="page-wrapper">
             <div className="question-container">
                 <>
+                    <h2>{category}</h2>
                     <h1>{question}</h1>
                     <span className="question-timer-text">
                         Zeit übrig: <strong>{countdown}</strong>

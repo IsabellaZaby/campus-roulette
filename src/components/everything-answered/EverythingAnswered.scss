@@ -1,0 +1,16 @@
+.everything-answered-container {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.everything-answered-image {
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.headline {
+    color: SlateBlue;
+}

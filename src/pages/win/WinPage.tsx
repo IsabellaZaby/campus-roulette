@@ -1,11 +1,12 @@
-import './FinishedPage.scss';
+import './WinPage.scss';
 import React, { useContext, useRef } from 'react';
 import { FireworksHandlers } from 'fireworks-js';
 import Fireworks from '@fireworks-js/react';
 import { GameContext } from '../../context/GameContext';
 import NoCheatingDisplay from '../../components/no-cheating-display/NoCheatingDisplay';
+import BackToRouletteButton from '../../components/back-to-roulette-button/BackToRouletteButton';
 
-function FinishedPage() {
+function WinPage() {
     const { points } = useContext(GameContext);
     const ref = useRef<FireworksHandlers>(null);
 
@@ -15,7 +16,8 @@ function FinishedPage() {
 
     return (
         <div className="page-wrapper">
-            <h1 className="finished-text">Gewonnen!</h1>
+            <h1 className="win-text">Gewonnen!</h1>
+            <BackToRouletteButton isAutomaticRedirect={false} />
             <Fireworks
                 ref={ref}
                 className="fireworks"
@@ -39,4 +41,4 @@ function FinishedPage() {
     );
 }
 
-export default FinishedPage;
+export default WinPage;
