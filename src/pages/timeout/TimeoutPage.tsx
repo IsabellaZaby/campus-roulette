@@ -1,26 +1,7 @@
 import './TimeoutPage.scss';
-import { useEffect, useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import BackToRouletteButton from "../../components/back-to-roulette-button/BackToRouletteButton";
 
 function TimeoutPage() {
-    const navigate = useNavigate();
-    //const [countdown, setCountdown] = useState(30);
-    useEffect(() => {
-        /* TODO visualize countdown
-        let intervalId = setInterval(() => {
-            setCountdown((prevCountdown) => prevCountdown - 1);
-        }, 1000);
-         */
-
-        const timeout = setTimeout(function () {
-            navigate('/roulette');
-        }, 3000);
-
-        return () => {
-            //clearInterval(intervalId);
-            clearTimeout(timeout);
-        };
-    }, []);
     return (
         <div className="timeout-page-wrapper">
             <div className="timeout-container">
@@ -30,6 +11,7 @@ function TimeoutPage() {
                     className="timeout-img"
                     alt="Bild eines traurigen Einhorns"
                 />
+                <BackToRouletteButton />
             </div>
         </div>
     );

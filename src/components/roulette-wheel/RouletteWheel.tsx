@@ -1,5 +1,5 @@
 import './RouletteWheel.scss';
-import { useContext, useState } from 'react';
+import { useContext, useEffect, useState } from 'react';
 import questions from '../../json-files/trivia.json';
 import { GameContext } from '../../context/GameContext';
 import { useNavigate } from 'react-router-dom';
@@ -8,11 +8,20 @@ function RouletteWheel() {
     const navigate = useNavigate();
     const [spinning, setSpinning] = useState(false);
     const { setCategory } = useContext(GameContext);
+    let animationTimeout: ReturnType<typeof setTimeout>;
+
+    useEffect(() => {
+        return () => {
+            clearTimeout(animationTimeout);
+        };
+    }, []);
 
     function handleClick() {
-        setSpinning(true);
-        let rand = Math.random() * 12;
-        updateAnimationNumbers(Math.floor(rand));
+        if (!spinning) {
+            setSpinning(true);
+            let rand = Math.random() * 12;
+            updateAnimationNumbers(Math.floor(rand));
+        }
     }
 
     function updateAnimationNumbers(prizePosition: number) {
@@ -25,7 +34,7 @@ function RouletteWheel() {
         const CSSTemplate = `@keyframes spinning {from { transform: rotate(0); } to {  transform: rotate(${spinValue}deg); }}`;
         styleSheet.insertRule(CSSTemplate, styleSheet.cssRules.length);
         setCategory(questions[prizePosition].category);
-        setTimeout(() => navigate('/question'), 5500);
+        animationTimeout = setTimeout(() => navigate('/question'), 5700);
     }
 
     return (
@@ -48,13 +57,13 @@ function RouletteWheel() {
                         <span className="pointer"></span>
                     </div>
                 </div>
+                <button
+                    id="spin"
+                    onClick={handleClick}
+                >
+                    Spin that wheel!
+                </button>
             </div>
-            <button
-                id="spin"
-                onClick={handleClick}
-            >
-                Spin that wheel!
-            </button>
         </div>
     );
 }

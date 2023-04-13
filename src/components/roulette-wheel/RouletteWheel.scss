@@ -62,6 +62,7 @@ $rotation: 360deg / $numberOfSlices;
         padding-right: 10px;
         display: block;
         transform-origin: left center;
+        text-shadow: 0 0 4px #000;
 
         &:before,
         &:after {
