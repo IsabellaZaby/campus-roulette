@@ -121,7 +121,7 @@
                 "answer": [
                     "Ja",
                     "Nein",
-                    "Weis nicht ich bin auf Diät",
+                    "Weis nicht, ich bin auf Diät",
                     "Keine Angabe, ich will niemanden Beleidigen"
                 ],
                 "correct": [
@@ -137,7 +137,7 @@
                     "Eisenstadt",
                     "Pinkafeld",
                     "Eisenstadt und Pinkafeld",
-                    "An keiner, ich gehe zum Kepad Hansl"
+                    "An keiner, ich gehe zum Kepab Hansl"
                 ],
                 "correct": [
                     "Eisenstadt und Pinkafeld"
@@ -328,7 +328,7 @@
                     "Ich studiere hier nur, ich kenne mich nicht aus"
                 ],
                 "correct": [
-                    "Ja"
+                    "Nein"
                 ]
             }
         ]
@@ -479,13 +479,13 @@
             {
                 "question": "Wo befindet sich das Sensoriklabor?",
                 "answer": [
-                    "Am Cmapus Eisenstadt",
+                    "Am Campus Eisenstadt",
                     "So was gibt es auf der FH?",
                     "Am Campus Pinkafeld",
                     "Am Campus Oberstinkenbrunn"
                 ],
                 "correct": [
-                    "Am Cmapus Eisenstadt"
+                    "Am Campus Eisenstadt"
                 ]
             }
         ]
