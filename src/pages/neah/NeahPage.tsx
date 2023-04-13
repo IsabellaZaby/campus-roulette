@@ -11,6 +11,14 @@ function NeahPage() {
                     alt="Bild eines grantigen Einhorns"
                 />
             </div>
+            <div className="neah-container">
+                    <a
+                        className="button start-page-button-text"
+                        href="/roulette"
+                    >
+                        Weiter
+                    </a>
+            </div>
         </div>
     );
 }

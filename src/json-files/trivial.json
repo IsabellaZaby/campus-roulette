@@ -242,6 +242,21 @@
         ]
     },
     {
+        "category": "Batman",
+        "questions": [{
+            "question": "Bist du da Batman?",
+            "answer": [
+                "Na, I bin da Batman",
+                "Na, I bin da Superman",
+                "Wos is?",
+                "Achso?"
+            ],
+            "correct": [
+                "Nein"
+            ]
+        }]
+    },
+    {
         "category": "Dept Energie&Umwelt",
         "questions": [{
                 "question": "An welchen Campus ist das Dept Energie&Umwelt zu finden?",
@@ -410,21 +425,6 @@
                 "Grubl",
                 "Blala",
                 "Hehehe"
-            ],
-            "correct": [
-                "Nein"
-            ]
-        }]
-    },
-    {
-        "category": "Batman",
-        "questions": [{
-            "question": "Bist du da Batman?",
-            "answer": [
-                "Na, I bin da Batman",
-                "Na, I bin da Superman",
-                "Wos is?",
-                "Achso?"
             ],
             "correct": [
                 "Nein"

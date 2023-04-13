@@ -8,7 +8,8 @@ import QuestionPage from './pages/question/QuestionPage';
 import RoulettePage from './pages/roulette/RoulettePage';
 import StartPage from './pages/start/StartPage';
 import YeahPage from './pages/yeah/YeahPage';
-import NeahPage from './pages/neah/neahPage';
+import NeahPage from './pages/neah/NeahPage';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
 
