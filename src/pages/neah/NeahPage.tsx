@@ -1,5 +1,5 @@
 import './NeahPage.scss';
-import { Link } from 'react-router-dom';
+import BackToRouletteButton from '../../components/back-to-roulette-button/BackToRouletteButton';
 
 function NeahPage() {
     return (
@@ -11,12 +11,7 @@ function NeahPage() {
                     className="neah-img"
                     alt="Bild eines grantigen Einhorns"
                 />
-                <Link
-                    className="button start-page-button-text"
-                    to="/roulette"
-                >
-                    Weiter
-                </Link>
+                <BackToRouletteButton />
             </div>
         </div>
     );

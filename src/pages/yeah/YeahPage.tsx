@@ -1,5 +1,5 @@
 import './YeahPage.scss';
-import { Link } from 'react-router-dom';
+import BackToRouletteButton from '../../components/back-to-roulette-button/BackToRouletteButton';
 
 function YeahPage() {
     return (
@@ -11,12 +11,7 @@ function YeahPage() {
                     className="yeah-img"
                     alt="Bild eines glücklichen Einhorns"
                 />
-                <Link
-                    className="button start-page-button-text"
-                    to="/roulette"
-                >
-                    Weiter
-                </Link>
+                <BackToRouletteButton />
             </div>
         </div>
     );

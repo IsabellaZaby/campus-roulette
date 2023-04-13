@@ -1,4 +1,5 @@
 import './ErrorPage.scss';
+import BackToRouletteButton from "../../components/back-to-roulette-button/BackToRouletteButton";
 
 function ErrorPage() {
     return (
@@ -10,6 +11,7 @@ function ErrorPage() {
                     className="error-img"
                     alt="Bild eines traurigen Einhorns"
                 />
+                <BackToRouletteButton />
             </div>
         </div>
     );
