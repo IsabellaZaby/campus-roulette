@@ -12,7 +12,8 @@
                 ],
                 "correct": [
                     "Pinkafeld, Eisenstadt"
-                ]
+                ],
+                "alreadyAnswered": false
             },
             {
                 "question": "Wo steht das Energetikum?",
@@ -24,7 +25,9 @@
                 ],
                 "correct": [
                     "Pinkafeld"
-                ]
+                ],
+                "alreadyAnswered": false
+
             },
             {
                 "question": "Wo steht das Energetikum?",
@@ -36,7 +39,8 @@
                 ],
                 "correct": [
                     "Pinkafeld"
-                ]
+                ],
+                "alreadyAnswered": false
             }
         ]
     },
@@ -53,7 +57,8 @@
                 ],
                 "correct": [
                     "Dunkelblau"
-                ]
+                ],
+                "alreadyAnswered": false
             },
             {
                 "question": "Welcher Bachelorstudiengang gehört zum Dept IT?",
@@ -65,7 +70,8 @@
                 ],
                 "correct": [
                     "BSWE"
-                ]
+                ],
+                "alreadyAnswered": false
             },
             {
                 "question": "Welche Arten des Studiums bietet die FH-Burgenland an?",
@@ -77,7 +83,8 @@
                 ],
                 "correct": [
                     "berufsbegleitend, verlängert berfusbegleitend, vollzeit, berufsermöglichend"
-                ]
+                ],
+                "alreadyAnswered": false
             }
         ]
     },
@@ -97,7 +104,8 @@
                     "Nein",
                     "Weis nicht ich bin auf Diät",
                     "Keine Angabe, ich will niemanden Beleidigen"
-                ]
+                ],
+                "alreadyAnswered": false
             },
             {
                 "question": "An welchen Standorten gibt es eine Mensa?",
@@ -109,7 +117,8 @@
                 ],
                 "correct": [
                     "Eisenstadt und Pinkafeld"
-                ]
+                ],
+                "alreadyAnswered": false
             },
             {
                 "question": "Gibt es auch Kaffee in der Mensa?",
@@ -121,7 +130,8 @@
                 ],
                 "correct": [
                     "Ja"
-                ]
+                ],
+                "alreadyAnswered": false
             }
         ]
     },
@@ -138,7 +148,8 @@
                 ],
                 "correct": [
                     "Drei"
-                ]
+                ],
+                "alreadyAnswered": false
             },
             {
                 "question": "Mit welchen Titel schließt man den Studiengang BIMK ab?",
@@ -150,7 +161,8 @@
                 ],
                 "correct": [
                     "BA"
-                ]
+                ],
+                "alreadyAnswered": false
             },
             {
                 "question": "Wieviele MA Lehrgänge gibt es?",
@@ -162,7 +174,8 @@
                 ],
                 "correct": [
                     "Vier"
-                ]
+                ],
+                "alreadyAnswered": false
             }
         ]
     },
@@ -179,7 +192,8 @@
                 ],
                 "correct": [
                     "Nein"
-                ]
+                ],
+                "alreadyAnswered": false
             },
             {
                 "question": "Welche BA Studiengänge gibt es im Dept Soziales?",
@@ -191,7 +205,8 @@
                 ],
                 "correct": [
                     "BSOZ"
-                ]
+                ],
+                "alreadyAnswered": false
             },
             {
                 "question": "Bietet das Dept Soziales auch berufsbegleitende Studiengänge an?",
@@ -203,7 +218,8 @@
                 ],
                 "correct": [
                     "Nein"
-                ]
+                ],
+                "alreadyAnswered": false
             }
         ]
     },
@@ -221,7 +237,8 @@
                 "correct": [
                     "Na, I bin da Superman",
                     "Wos is?"
-                ]
+                ],
+                "alreadyAnswered": false
             }
         ]
     },
@@ -238,7 +255,8 @@
                 ],
                 "correct": [
                     "Ja"
-                ]
+                ],
+                "alreadyAnswered": false
             },
             {
                 "question": "An welchen Campus werden Studiengänge des Dept. Wirtschaft angeboten?",
@@ -250,7 +268,8 @@
                 ],
                 "correct": [
                     "Eisenstadt"
-                ]
+                ],
+                "alreadyAnswered": false
             },
             {
                 "question": "Welche Studienform bietet der Studiengang International Sustainable Business?",
@@ -262,7 +281,8 @@
                 ],
                 "correct": [
                     "Berufsermöglichend"
-                ]
+                ],
+                "alreadyAnswered": false
             }
         ]
     },
@@ -279,7 +299,8 @@
                 ],
                 "correct": [
                     "Pinkafeld"
-                ]
+                ],
+                "alreadyAnswered": false
             },
             {
                 "question": "Wieviele MA Studiengänge werden angeboten?",
@@ -291,7 +312,8 @@
                 ],
                 "correct": [
                     "Drei"
-                ]
+                ],
+                "alreadyAnswered": false
             },
             {
                 "question": "Gibt es einen BA Studiengang Photonik und Neuronik?",
@@ -303,7 +325,8 @@
                 ],
                 "correct": [
                     "Ja"
-                ]
+                ],
+                "alreadyAnswered": false
             }
         ]
     },
@@ -320,7 +343,8 @@
                 ],
                 "correct": [
                     "Nein"
-                ]
+                ],
+                "alreadyAnswered": false
             },
             {
                 "question": "Gibt es den Studiengang BA Hebammen?",
@@ -332,7 +356,8 @@
                 ],
                 "correct": [
                     "Ja"
-                ]
+                ],
+                "alreadyAnswered": false
             },
             {
                 "question": "Auf welchen Standorten ist das Dept Gesundheit zu finden?",
@@ -344,7 +369,8 @@
                 ],
                 "correct": [
                     "Pinkafeld"
-                ]
+                ],
+                "alreadyAnswered": false
             }
         ]
     },
@@ -361,7 +387,8 @@
                 ],
                 "correct": [
                     "Ja"
-                ]
+                ],
+                "alreadyAnswered": false
             },
             {
                 "question": "Gibt es genug Steckdosen in den Räumen der FH für IT Studierende?",
@@ -373,7 +400,8 @@
                 ],
                 "correct": [
                     "Nein, Es sind immer zuwenig Steckdosen"
-                ]
+                ],
+                "alreadyAnswered": false
             },
             {
                 "question": "Wieviele Kilometer sind zwischen Campus Eisenstadt und Pinkafeld?",
@@ -385,7 +413,8 @@
                 ],
                 "correct": [
                     "84,8 km"
-                ]
+                ],
+                "alreadyAnswered": false
             }
         ]
     },
@@ -402,7 +431,8 @@
                 ],
                 "correct": [
                     "Pinkafeld"
-                ]
+                ],
+                "alreadyAnswered": false
             },
             {
                 "question": "Wieviele Stockwerke hat das HG in Eisenstadt?",
@@ -414,7 +444,8 @@
                 ],
                 "correct": [
                     "Zwei"
-                ]
+                ],
+                "alreadyAnswered": false
             },
             {
                 "question": "Wo befindet sich das Sensoriklabor?",
@@ -426,7 +457,8 @@
                 ],
                 "correct": [
                     "Am Cmapus Eisenstadt"
-                ]
+                ],
+                "alreadyAnswered": false
             }
         ]
     },
@@ -444,7 +476,8 @@
                 "correct": [
                     "Blala",
                     "Hehehe"
-                ]
+                ],
+                "alreadyAnswered": false
             }
         ]
     }

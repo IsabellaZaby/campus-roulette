@@ -7,4 +7,5 @@ export interface IQuestionDetails {
     question: string;
     answer: string[];
     correct: string[];
+    alreadyAnswered: boolean;
 }
