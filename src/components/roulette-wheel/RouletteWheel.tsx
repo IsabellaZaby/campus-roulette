@@ -39,31 +39,29 @@ function RouletteWheel() {
 
     return (
         <div className="wrapper">
-            <div className="container">
-                <div className="board">
-                    <div className="spinner-table">
-                        <div className={spinning ? 'dial spinning' : 'dial'}>
-                            {questions.map((question) => (
-                                <div
-                                    className="slice"
-                                    key={question.category}
-                                >
-                                    <div className="label">{question.category}</div>
-                                </div>
-                            ))}
-                        </div>
-                    </div>
-                    <div className="arrow">
-                        <span className="pointer"></span>
+            <div className="board">
+                <div className="spinner-table">
+                    <div className={spinning ? 'dial spinning' : 'dial'}>
+                        {questions.map((question) => (
+                            <div
+                                className="slice"
+                                key={question.category}
+                            >
+                                <div className="label">{question.category}</div>
+                            </div>
+                        ))}
                     </div>
                 </div>
-                <button
-                    id="spin"
-                    onClick={handleClick}
-                >
-                    Spin that wheel!
-                </button>
+                <div className="arrow">
+                    <span className="pointer"></span>
+                </div>
             </div>
+            <button
+                id="spin"
+                onClick={handleClick}
+            >
+                Spin that wheel!
+            </button>
         </div>
     );
 }

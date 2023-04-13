@@ -9,12 +9,12 @@ function FinishedPage() {
     const { points } = useContext(GameContext);
     const ref = useRef<FireworksHandlers>(null);
 
-    if (points <= 5) {
+    if (points < 5) {
         return <NoCheatingDisplay />;
     }
 
     return (
-        <div className="finished-page-wrapper">
+        <div className="page-wrapper">
             <h1 className="finished-text">Gewonnen!</h1>
             <Fireworks
                 ref={ref}

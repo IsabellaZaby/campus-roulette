@@ -17,12 +17,18 @@ function QuestionPage() {
     const [correctAnswer, setCorrectAnswer] = useState<string[]>([]);
 
     function getRandomQuestion() {
-        const questionList: IQuestionDetails[] | undefined = questions.find((item) => item.category === category)?.questions;
-        if (questionList) {
-            const randomIndex = Math.floor(Math.random() * questionList.length);
-            setQuestion(questionList[randomIndex].question);
-            setAnswer(questionList[randomIndex].answer);
-            setCorrectAnswer(questionList[randomIndex].correct);
+        if (category === 'Batman') {
+            navigate('/batman');
+        } else if (category === 'Joker') {
+            navigate('/joker');
+        } else {
+            const questionList: IQuestionDetails[] | undefined = questions.find((item) => item.category === category)?.questions;
+            if (questionList) {
+                const randomIndex = Math.floor(Math.random() * questionList.length);
+                setQuestion(questionList[randomIndex].question);
+                setAnswer(questionList[randomIndex].answer);
+                setCorrectAnswer(questionList[randomIndex].correct);
+            }
         }
     }
 
@@ -57,11 +63,11 @@ function QuestionPage() {
     }
 
     return (
-        <div className="question-page-wrapper">
+        <div className="page-wrapper">
             <div className="question-container">
                 <>
                     <h1>{question}</h1>
-                    <span style={{ fontSize: '2rem', marginBottom: '20px' }}>
+                    <span className="question-timer-text">
                         Zeit übrig: <strong>{countdown}</strong>
                     </span>
                     {answer.length > 0 &&

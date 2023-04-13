@@ -11,6 +11,8 @@ import YeahPage from './pages/yeah/YeahPage';
 import NeahPage from './pages/neah/NeahPage';
 import TimeoutPage from './pages/timeout/TimeoutPage';
 import FinishedPage from './pages/finished/FinishedPage';
+import BatmanPage from './pages/batman/BatmanPage';
+import JokerPage from './pages/joker/JokerPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
 
@@ -43,6 +45,16 @@ const router = createBrowserRouter([
     {
         path: '/finished',
         element: <FinishedPage />,
+        errorElement: <ErrorPage />
+    },
+    {
+        path: '/batman',
+        element: <BatmanPage />,
+        errorElement: <ErrorPage />
+    },
+    {
+        path: '/joker',
+        element: <JokerPage />,
         errorElement: <ErrorPage />
     }
 ]);

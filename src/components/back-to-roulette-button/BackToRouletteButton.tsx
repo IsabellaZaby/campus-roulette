@@ -2,9 +2,13 @@ import './BackToRouletteButton.scss';
 import { useEffect, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 
-function BackToRouletteButton() {
+interface IBackRouletteButtonProps {
+    countdownProps?: number;
+}
+
+function BackToRouletteButton({ countdownProps = 3 }: IBackRouletteButtonProps) {
     const navigate = useNavigate();
-    const [countdown, setCountdown] = useState(3);
+    const [countdown, setCountdown] = useState(countdownProps);
     useEffect(() => {
         let intervalId = setInterval(() => {
             setCountdown((prevCountdown) => prevCountdown - 1);
@@ -12,7 +16,7 @@ function BackToRouletteButton() {
 
         const timeout = setTimeout(function () {
             navigate('/');
-        }, 3000);
+        }, 1000 * countdown);
 
         return () => {
             clearInterval(intervalId);
@@ -23,7 +27,7 @@ function BackToRouletteButton() {
         <>
             <span className="back-to-roulette-text">Automatische Weiterleitung in {countdown}</span>
             <Link
-                className="button start-page-button-text"
+                className="button"
                 to="/"
             >
                 Zum Start

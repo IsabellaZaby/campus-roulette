@@ -1,9 +1,9 @@
 import './ErrorPage.scss';
-import BackToRouletteButton from "../../components/back-to-roulette-button/BackToRouletteButton";
+import BackToRouletteButton from '../../components/back-to-roulette-button/BackToRouletteButton';
 
 function ErrorPage() {
     return (
-        <div className="error-page-wrapper">
+        <div className="page-wrapper">
             <div className="error-container">
                 <h1 className="error-text">Error 404</h1>
                 <img

@@ -14,7 +14,7 @@ function RoulettePage() {
         }
     }, []);
     return (
-        <div className="roulette-page-wrapper">
+        <div className="page-wrapper">
             <h1 className="headline">Setze dein Wissen aufs Spiel - mit Campus-Roulette!</h1>
             <h2 className="headline">Punktestand: {points}</h2>
             <RouletteWheel />
