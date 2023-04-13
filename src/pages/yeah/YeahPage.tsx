@@ -5,7 +5,7 @@ function YeahPage() {
     return (
         <div className="yeah-page-wrapper">
             <div className="yeah-container">
-                <h1 className="yeah-text">Das war RICHTIG! YEAH!</h1>
+                <h1 className="yeah-text">Das war richtig! Yay!</h1>
                 <img
                     src="/pictures/happy_unicorn_2.png"
                     className="yeah-img"

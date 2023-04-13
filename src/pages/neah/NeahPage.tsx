@@ -5,7 +5,7 @@ function NeahPage() {
     return (
         <div className="neah-page-wrapper">
             <div className="neah-container">
-                <h1 className="neah-text">ERROR FALSCHE ANTWORT</h1>
+                <h1 className="neah-text">Falsche Antwort...</h1>
                 <img
                     src="/pictures/grumpy_unicorn_1.png"
                     className="neah-img"
