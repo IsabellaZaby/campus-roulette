@@ -10,9 +10,7 @@ function NeahPage() {
                     className="neah-img"
                     alt="Bild eines grantigen Einhorns"
                 />
-            </div>
-            <div className="neah-container">
-                    <a
+                 <a
                         className="button start-page-button-text"
                         href="/roulette"
                     >

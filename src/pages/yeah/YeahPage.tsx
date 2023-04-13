@@ -10,9 +10,7 @@ function YeahPage() {
                     className="yeah-img"
                     alt="Bild eines glücklichen Einhorns"
                 />
-            </div>
-            <div className="neah-container">
-                    <a
+                <a
                         className="button start-page-button-text"
                         href="/roulette"
                     >
