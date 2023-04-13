@@ -1,9 +1,7 @@
 [{
         "category": "Campus",
         "questions": [{
-                "question": [
-                    "Wo sind die Campus der FH Burgenland?"
-                ],
+                "question": "Wo sind die Campus der FH Burgenland?",
                 "answer": [
                     "Pinkafeld, Eisenstadt",
                     "Oberpullendorf, Jennersdorf",
@@ -15,9 +13,7 @@
                 ]
             },
             {
-                "question": [
-                    "Wo steht das Energetikum?"
-                ],
+                "question": "Wo steht das Energetikum?",
                 "answer": [
                     "Pinkafeld",
                     "Jennersdorf",
@@ -29,9 +25,7 @@
                 ]
             },
             {
-                "question": [
-                    "Wo steht das Energetikum?"
-                ],
+                "question": "Wo steht das Energetikum?",
                 "answer": [
                     "Pinkafeld",
                     "Jennersdorf",
@@ -47,9 +41,7 @@
     {
         "category": "Studium",
         "questions": [{
-                "question": [
-                    "Welche Farbe hat das Dept Wirtschaft?"
-                ],
+                "question": "Welche Farbe hat das Dept Wirtschaft?",
                 "answer": [
                     "Dunkelblau",
                     "Blau",
@@ -61,9 +53,7 @@
                 ]
             },
             {
-                "question": [
-                    "Welcher Bachelorstudiengang gehört zum Dept IT?"
-                ],
+                "question": "Welcher Bachelorstudiengang gehört zum Dept IT?",
                 "answer": [
                     "BGKP",
                     "BGET",
@@ -75,9 +65,7 @@
                 ]
             },
             {
-                "question": [
-                    "Welche Arten des Studiums bietet die FH-Burgenland an?"
-                ],
+                "question": "Welche Arten des Studiums bietet die FH-Burgenland an?",
                 "answer": [
                     "berufsbegleitend, verlängert berfusbegleitend, vollzeit, berufsermöglichend",
                     "nur berfusbegleitend",
@@ -93,9 +81,7 @@
     {
         "category": "Mensa",
         "questions": [{
-                "question": [
-                    "Schmeckt das Essen in der Mensa?"
-                ],
+                "question": "Schmeckt das Essen in der Mensa?",
                 "answer": [
                     "Ja",
                     "Nein",
@@ -110,9 +96,7 @@
                 ]
             },
             {
-                "question": [
-                    "An welchen Standorten gibt es eine Mensa?"
-                ],
+                "question": "An welchen Standorten gibt es eine Mensa?",
                 "answer": [
                     "Eisenstadt",
                     "Pinkafeld",
@@ -124,9 +108,7 @@
                 ]
             },
             {
-                "question": [
-                    "Gibt es auch Kaffee in der Mensa?"
-                ],
+                "question": "Gibt es auch Kaffee in der Mensa?",
                 "answer": [
                     "Ja",
                     "Nein",
@@ -142,9 +124,7 @@
     {
         "category": "Dept IT",
         "questions": [{
-                "question": [
-                    "Wieviele BA Studiengänge gibt es?"
-                ],
+                "question": "Wieviele BA Studiengänge gibt es?",
                 "answer": [
                     "Keinen",
                     "Drei",
@@ -156,9 +136,7 @@
                 ]
             },
             {
-                "question": [
-                    "Mit welchen Titel schließt man den Studiengang BIMK ab?"
-                ],
+                "question": "Mit welchen Titel schließt man den Studiengang BIMK ab?",
                 "answer": [
                     "BA",
                     "BSc",
@@ -170,9 +148,7 @@
                 ]
             },
             {
-                "question": [
-                    "Wieviele MA Lehrgänge gibt es?"
-                ],
+                "question": "Wieviele MA Lehrgänge gibt es?",
                 "answer": [
                     "Keinen, die werden alle gleich PhD",
                     "Vier",
@@ -188,9 +164,7 @@
     {
         "category": "Dept Soziales",
         "questions": [{
-                "question": [
-                    "Gibt es auch einen MA Studiengang im Dept Soziales?"
-                ],
+                "question": "Gibt es auch einen MA Studiengang im Dept Soziales?",
                 "answer": [
                     "Nein",
                     "Ja",
@@ -202,9 +176,7 @@
                 ]
             },
             {
-                "question": [
-                    "Welche BA Studiengänge gibt es im Dept Soziales?"
-                ],
+                "question": "Welche BA Studiengänge gibt es im Dept Soziales?",
                 "answer": [
                     "BJUS",
                     "BJUS, BSOZ",
@@ -216,9 +188,7 @@
                 ]
             },
             {
-                "question": [
-                    "Bietet das Dept Soziales auch berufsbegleitende Studiengänge an?"
-                ],
+                "question": "Bietet das Dept Soziales auch berufsbegleitende Studiengänge an?",
                 "answer": [
                     "Es gibt ein Dept. Soziales?",
                     "Ja, alle sind berufbegleitend",
@@ -234,9 +204,7 @@
     {
         "category": "Dept Wirtschaft",
         "questions": [{
-                "question": [
-                    "Gibt es einen MA Studiengang Internationales Weinmarketing?"
-                ],
+                "question": "Gibt es einen MA Studiengang Internationales Weinmarketing?",
                 "answer": [
                     "Nein",
                     "Ja",
@@ -248,9 +216,7 @@
                 ]
             },
             {
-                "question": [
-                    "An welchen Campus werden Studiengänge des Dept. Wirtschaft angeboten?"
-                ],
+                "question": "An welchen Campus werden Studiengänge des Dept. Wirtschaft angeboten?",
                 "answer": [
                     "Eisenstadt und Pinkafeld",
                     "Eisenstadt",
@@ -262,9 +228,7 @@
                 ]
             },
             {
-                "question": [
-                    "Welche Studienform bietet der Studiengang International Sustainable Business?"
-                ],
+                "question": "Welche Studienform bietet der Studiengang International Sustainable Business?",
                 "answer": [
                     "Berufsermöglichend",
                     "Berufbegleitend",
@@ -280,9 +244,7 @@
     {
         "category": "Dept Energie&Umwelt",
         "questions": [{
-                "question": [
-                    "An welchen Campus ist das Dept Energie&Umwelt zu finden?"
-                ],
+                "question": "An welchen Campus ist das Dept Energie&Umwelt zu finden?",
                 "answer": [
                     "Pinkafeld",
                     "Eisenstadt und Pinkafeld",
@@ -294,9 +256,7 @@
                 ]
             },
             {
-                "question": [
-                    "Wieviele MA Studiengänge werden angeboten?"
-                ],
+                "question": "Wieviele MA Studiengänge werden angeboten?",
                 "answer": [
                     "Drei",
                     "Keine",
@@ -308,9 +268,7 @@
                 ]
             },
             {
-                "question": [
-                    "Gibt es einen BA Studiengang Photonik und Neuronik?"
-                ],
+                "question": "Gibt es einen BA Studiengang Photonik und Neuronik?",
                 "answer": [
                     "Nein",
                     "Natürlich, den mache ich gerade",
@@ -326,55 +284,47 @@
     {
         "category": "Dept Gesundheit",
         "questions": [{
-                "question": [
-                    "Gibt es auch einen MA Studiengang im Dept Soziales?"
-                ],
+                "question": "Gibt es ein Medizinstudium im Dept Gesundheit?",
                 "answer": [
                     "Nein",
                     "Ja",
-                    "Zwei",
-                    "Fünf"
+                    "Eventuell",
+                    "Weiß nicht"
                 ],
                 "correct": [
                     "Nein"
                 ]
             },
             {
-                "question": [
-                    "Welche BA Studiengänge gibt es im Dept Soziales?"
-                ],
+                "question": "Gibt es den Studiengang BA Hebammen?",
                 "answer": [
-                    "BJUS",
-                    "BJUS, BSOZ",
-                    "BSOZ",
-                    "BITI"
+                    "Ja",
+                    "Nein",
+                    "Dieser ist integriert im Medizinstudium",
+                    "Nein, es ist ein MA Studiengang"
                 ],
                 "correct": [
-                    "BSOZ"
+                    "Ja"
                 ]
             },
             {
-                "question": [
-                    "Bietet das Dept Soziales auch berufsbegleitende Studiengänge an?"
-                ],
+                "question": "Auf welchen Standorten ist das Dept Gesundheit zu finden?",
                 "answer": [
-                    "Es gibt ein Dept. Soziales?",
-                    "Ja, alle sind berufbegleitend",
-                    "Es gibt nur berufsbegleitende Studiengänge im Dept. Soziales",
-                    "Nein"
+                    "Bregenz?",
+                    "Eisenstadt",
+                    "Pinkafeld",
+                    "Unterstinkenbrunn"
                 ],
                 "correct": [
-                    "Nein"
+                    "Pinkafeld"
                 ]
             }
         ]
     },
     {
-        "category": "Fun Facts",
+        "category": "FunFacts",
         "questions": [{
-                "question": [
-                    "Gibt es auch einen MA Studiengang im Dept Soziales?"
-                ],
+                "question": "Gibt es auch einen MA Studiengang im Dept Soziales?",
                 "answer": [
                     "Nein",
                     "Ja",
@@ -386,9 +336,7 @@
                 ]
             },
             {
-                "question": [
-                    "Welche BA Studiengänge gibt es im Dept Soziales?"
-                ],
+                "question": "Welche BA Studiengänge gibt es im Dept Soziales?",
                 "answer": [
                     "BJUS",
                     "BJUS, BSOZ",
@@ -400,9 +348,7 @@
                 ]
             },
             {
-                "question": [
-                    "Bietet das Dept Soziales auch berufsbegleitende Studiengänge an?"
-                ],
+                "question": "Bietet das Dept Soziales auch berufsbegleitende Studiengänge an?",
                 "answer": [
                     "Es gibt ein Dept. Soziales?",
                     "Ja, alle sind berufbegleitend",
@@ -418,9 +364,7 @@
     {
         "category": "Gebäude",
         "questions": [{
-                "question": [
-                    "Gibt es auch einen MA Studiengang im Dept Soziales?"
-                ],
+                "question": "Gibt es auch einen MA Studiengang im Dept Soziales?",
                 "answer": [
                     "Nein",
                     "Ja",
@@ -432,9 +376,7 @@
                 ]
             },
             {
-                "question": [
-                    "Welche BA Studiengänge gibt es im Dept Soziales?"
-                ],
+                "question": "Welche BA Studiengänge gibt es im Dept Soziales?",
                 "answer": [
                     "BJUS",
                     "BJUS, BSOZ",
@@ -446,9 +388,7 @@
                 ]
             },
             {
-                "question": [
-                    "Bietet das Dept Soziales auch berufsbegleitende Studiengänge an?"
-                ],
+                "question": "Bietet das Dept Soziales auch berufsbegleitende Studiengänge an?",
                 "answer": [
                     "Es gibt ein Dept. Soziales?",
                     "Ja, alle sind berufbegleitend",
@@ -460,12 +400,11 @@
                 ]
             }
         ]
-    }, {
+    },
+    {
         "category": "Joker",
         "questions": [{
-            "question": [
-                "HAHAHAHAHAHA!"
-            ],
+            "question": "AHAHAHAHA!",
             "answer": [
                 "Brbl",
                 "Grubl",
@@ -476,12 +415,11 @@
                 "Nein"
             ]
         }]
-    }, {
+    },
+    {
         "category": "Batman",
         "questions": [{
-            "question": [
-                "Bist du da Batman?"
-            ],
+            "question": "Bist du da Batman?",
             "answer": [
                 "Na, I bin da Batman",
                 "Na, I bin da Superman",
