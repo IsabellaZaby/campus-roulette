@@ -79,13 +79,13 @@
                     "Welche Arten des Studiums bietet die FH-Burgenland an?"
                 ],
                 "answer": [
-                    "berufsbegleitend, verlängert berfusbegleitend, vollzeit",
+                    "berufsbegleitend, verlängert berfusbegleitend, vollzeit, berufsermöglichend",
                     "nur berfusbegleitend",
                     "nur vollzeit",
                     "Keine Ahnung, ich bin ewiger Student"
                 ],
                 "correct": [
-                    "berufsbegleitend, verlängert berfusbegleitend, vollzeit"
+                    "berufsbegleitend, verlängert berfusbegleitend, vollzeit, berufsermöglichend"
                 ]
             }
         ]
@@ -135,6 +135,328 @@
                 ],
                 "correct": [
                     "Ja"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Dept IT",
+        "questions": [{
+                "question": [
+                    "Wieviele BA Studiengänge gibt es?"
+                ],
+                "answer": [
+                    "Keinen",
+                    "Drei",
+                    "Ist ein BA was zum essen?",
+                    "Fünf"
+                ],
+                "correct": [
+                    "Drei"
+                ]
+            },
+            {
+                "question": [
+                    "Mit welchen Titel schließt man den Studiengang BIMK ab?"
+                ],
+                "answer": [
+                    "BA",
+                    "BSc",
+                    "Astronaut",
+                    "Mag."
+                ],
+                "correct": [
+                    "BA"
+                ]
+            },
+            {
+                "question": [
+                    "Wieviele MA Lehrgänge gibt es?"
+                ],
+                "answer": [
+                    "Keinen, die werden alle gleich PhD",
+                    "Vier",
+                    "Zwei",
+                    "Nur auf einer Partner Uni"
+                ],
+                "correct": [
+                    "Vier"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Dept Soziales",
+        "questions": [{
+                "question": [
+                    "Gibt es auch einen MA Studiengang im Dept Soziales?"
+                ],
+                "answer": [
+                    "Nein",
+                    "Ja",
+                    "Zwei",
+                    "Fünf"
+                ],
+                "correct": [
+                    "Nein"
+                ]
+            },
+            {
+                "question": [
+                    "Welche BA Studiengänge gibt es im Dept Soziales?"
+                ],
+                "answer": [
+                    "BJUS",
+                    "BJUS, BSOZ",
+                    "BSOZ",
+                    "BITI"
+                ],
+                "correct": [
+                    "BSOZ"
+                ]
+            },
+            {
+                "question": [
+                    "Bietet das Dept Soziales auch berufsbegleitende Studiengänge an?"
+                ],
+                "answer": [
+                    "Es gibt ein Dept. Soziales?",
+                    "Ja, alle sind berufbegleitend",
+                    "Es gibt nur berufsbegleitende Studiengänge im Dept. Soziales",
+                    "Nein"
+                ],
+                "correct": [
+                    "Nein"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Dept Wirtschaft",
+        "questions": [{
+                "question": [
+                    "Gibt es einen MA Studiengang Internationales Weinmarketing?"
+                ],
+                "answer": [
+                    "Nein",
+                    "Ja",
+                    "Das wage ich zu bezweifeln",
+                    "Hicks...!"
+                ],
+                "correct": [
+                    "Ja"
+                ]
+            },
+            {
+                "question": [
+                    "An welchen Campus werden Studiengänge des Dept. Wirtschaft angeboten?"
+                ],
+                "answer": [
+                    "Eisenstadt und Pinkafeld",
+                    "Eisenstadt",
+                    "Graz, St. Pölten, Linz",
+                    "Wien"
+                ],
+                "correct": [
+                    "Eisenstadt"
+                ]
+            },
+            {
+                "question": [
+                    "Welche Studienform bietet der Studiengang International Sustainable Business?"
+                ],
+                "answer": [
+                    "Berufsermöglichend",
+                    "Berufbegleitend",
+                    "Keine Ahnung",
+                    "Vollzeit"
+                ],
+                "correct": [
+                    "Berufsermöglichend"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Dept Energie&Umwelt",
+        "questions": [{
+                "question": [
+                    "An welchen Campus ist das Dept Energie&Umwelt zu finden?"
+                ],
+                "answer": [
+                    "Pinkafeld",
+                    "Eisenstadt und Pinkafeld",
+                    "Jennersdorf",
+                    "Zürich"
+                ],
+                "correct": [
+                    "Pinkafeld"
+                ]
+            },
+            {
+                "question": [
+                    "Wieviele MA Studiengänge werden angeboten?"
+                ],
+                "answer": [
+                    "Drei",
+                    "Keine",
+                    "Einer",
+                    "Fünf"
+                ],
+                "correct": [
+                    "Drei"
+                ]
+            },
+            {
+                "question": [
+                    "Gibt es einen BA Studiengang Photonik und Neuronik?"
+                ],
+                "answer": [
+                    "Nein",
+                    "Natürlich, den mache ich gerade",
+                    "Ja",
+                    "Ich studiere hier nur, ich kenne mich nicht aus"
+                ],
+                "correct": [
+                    "Ja"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Dept Gesundheit",
+        "questions": [{
+                "question": [
+                    "Gibt es auch einen MA Studiengang im Dept Soziales?"
+                ],
+                "answer": [
+                    "Nein",
+                    "Ja",
+                    "Zwei",
+                    "Fünf"
+                ],
+                "correct": [
+                    "Nein"
+                ]
+            },
+            {
+                "question": [
+                    "Welche BA Studiengänge gibt es im Dept Soziales?"
+                ],
+                "answer": [
+                    "BJUS",
+                    "BJUS, BSOZ",
+                    "BSOZ",
+                    "BITI"
+                ],
+                "correct": [
+                    "BSOZ"
+                ]
+            },
+            {
+                "question": [
+                    "Bietet das Dept Soziales auch berufsbegleitende Studiengänge an?"
+                ],
+                "answer": [
+                    "Es gibt ein Dept. Soziales?",
+                    "Ja, alle sind berufbegleitend",
+                    "Es gibt nur berufsbegleitende Studiengänge im Dept. Soziales",
+                    "Nein"
+                ],
+                "correct": [
+                    "Nein"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Fun Facts",
+        "questions": [{
+                "question": [
+                    "Gibt es auch einen MA Studiengang im Dept Soziales?"
+                ],
+                "answer": [
+                    "Nein",
+                    "Ja",
+                    "Zwei",
+                    "Fünf"
+                ],
+                "correct": [
+                    "Nein"
+                ]
+            },
+            {
+                "question": [
+                    "Welche BA Studiengänge gibt es im Dept Soziales?"
+                ],
+                "answer": [
+                    "BJUS",
+                    "BJUS, BSOZ",
+                    "BSOZ",
+                    "BITI"
+                ],
+                "correct": [
+                    "BSOZ"
+                ]
+            },
+            {
+                "question": [
+                    "Bietet das Dept Soziales auch berufsbegleitende Studiengänge an?"
+                ],
+                "answer": [
+                    "Es gibt ein Dept. Soziales?",
+                    "Ja, alle sind berufbegleitend",
+                    "Es gibt nur berufsbegleitende Studiengänge im Dept. Soziales",
+                    "Nein"
+                ],
+                "correct": [
+                    "Nein"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Gebäude",
+        "questions": [{
+                "question": [
+                    "Gibt es auch einen MA Studiengang im Dept Soziales?"
+                ],
+                "answer": [
+                    "Nein",
+                    "Ja",
+                    "Zwei",
+                    "Fünf"
+                ],
+                "correct": [
+                    "Nein"
+                ]
+            },
+            {
+                "question": [
+                    "Welche BA Studiengänge gibt es im Dept Soziales?"
+                ],
+                "answer": [
+                    "BJUS",
+                    "BJUS, BSOZ",
+                    "BSOZ",
+                    "BITI"
+                ],
+                "correct": [
+                    "BSOZ"
+                ]
+            },
+            {
+                "question": [
+                    "Bietet das Dept Soziales auch berufsbegleitende Studiengänge an?"
+                ],
+                "answer": [
+                    "Es gibt ein Dept. Soziales?",
+                    "Ja, alle sind berufbegleitend",
+                    "Es gibt nur berufsbegleitende Studiengänge im Dept. Soziales",
+                    "Nein"
+                ],
+                "correct": [
+                    "Nein"
                 ]
             }
         ]
