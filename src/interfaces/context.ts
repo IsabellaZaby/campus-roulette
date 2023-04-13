@@ -6,4 +6,5 @@ export interface IGameContext {
     category: string;
     setCategory: (category: string) => void;
     questions: IQuestion[];
+    setAlreadyAnswered: (questionParam: string) => void;
 }

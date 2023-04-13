@@ -11,10 +11,31 @@ interface IGameProviderProps {
 function GameProvider({ children }: IGameProviderProps) {
     const [points, setPoints] = useState(0);
     const [category, setCategory] = useState('');
+    const [questionState, setQuestionState] = useState(questions);
 
-    function setAlreadyAnswered(question: string) {}
+    function setAlreadyAnswered(questionParam: string) {
+        const question = questions.find((question) => question.category === category);
+        if (question) {
+            question.questions = question.questions.filter((question) => question.question !== questionParam);
+            const questionArray = [...questions, question];
+            setQuestionState(questionArray);
+        }
+    }
 
-    return <GameContext.Provider value={{ points, setPoints, category, setCategory, questions }}>{children}</GameContext.Provider>;
+    return (
+        <GameContext.Provider
+            value={{
+                points,
+                setPoints,
+                category,
+                setCategory,
+                questions: questionState,
+                setAlreadyAnswered
+            }}
+        >
+            {children}
+        </GameContext.Provider>
+    );
 }
 
 export default GameProvider;
