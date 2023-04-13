@@ -1,7 +1,7 @@
 import './QuestionPage.scss';
 import { useContext, useEffect, useState } from 'react';
 import { IQuestion } from '../../interfaces/questions';
-import questions from '../../json-files/trivial.json';
+import questions from '../../json-files/trivia.json';
 import { useNavigate } from 'react-router-dom';
 import { GameContext } from '../../context/GameContext';
 

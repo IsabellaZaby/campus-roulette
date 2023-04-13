@@ -1,8 +1,8 @@
 import './RouletteWheel.scss';
 import { useContext, useState } from 'react';
-import questions from '../../json-files/trivial.json';
+import questions from '../../json-files/trivia.json';
 import { GameContext } from '../../context/GameContext';
-import {useNavigate} from "react-router-dom";
+import { useNavigate } from 'react-router-dom';
 
 function RouletteWheel() {
     const navigate = useNavigate();
