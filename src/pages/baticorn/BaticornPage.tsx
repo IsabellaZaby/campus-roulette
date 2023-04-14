@@ -1,9 +1,9 @@
-import './BatmanPage.scss';
+import './BaticornPage.scss';
 import BackToRouletteButton from '../../components/back-to-roulette-button/BackToRouletteButton';
 import {useContext, useEffect} from "react";
 import {GameContext} from "../../context/GameContext";
 
-function BatmanPage() {
+function BaticornPage() {
     const {points, setPoints} = useContext(GameContext);
 
     useEffect(() => {
@@ -12,7 +12,7 @@ function BatmanPage() {
 
     return (
         <div className="page-wrapper">
-            <h1>Batman!!</h1>
+            <h1>Baticorn!</h1>
             <iframe
                 width="560"
                 height="315"
@@ -27,4 +27,4 @@ function BatmanPage() {
     );
 }
 
-export default BatmanPage;
+export default BaticornPage;

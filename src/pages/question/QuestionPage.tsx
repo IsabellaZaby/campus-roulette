@@ -18,8 +18,8 @@ function QuestionPage() {
     const [everythingAnswered, setEverythingAnswered] = useState(false);
 
     function getRandomQuestion() {
-        if (category === 'Batman') {
-            navigate('/batman');
+        if (category === 'Baticorn') {
+            navigate('/baticorn');
         } else if (category === 'Joker') {
             navigate('/joker');
         } else {

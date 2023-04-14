@@ -3,14 +3,16 @@ import BackToRouletteButton from '../back-to-roulette-button/BackToRouletteButto
 
 function NoCheatingDisplay() {
     return (
-        <div className="no-cheating-display-container">
-            <h1>Nicht schummeln!</h1>
-            <img
-                src="/pictures/grumpy_unicorn_2.png"
-                alt="Grumpy Unicorn"
-                className="no-cheating-display-image"
-            />
-            <BackToRouletteButton />
+        <div className="page-wrapper">
+            <div className="no-cheating-display-container">
+                <h1>Nicht schummeln!</h1>
+                <img
+                    src="/pictures/grumpy_unicorn_2.png"
+                    alt="Grumpy Unicorn"
+                    className="no-cheating-display-image"
+                />
+                <BackToRouletteButton />
+            </div>
         </div>
     );
 }

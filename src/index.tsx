@@ -12,7 +12,7 @@ import NeahPage from './pages/neah/NeahPage';
 import TimeoutPage from './pages/timeout/TimeoutPage';
 import WinPage from './pages/win/WinPage';
 import LosePage from './pages/lose/LosePage';
-import BatmanPage from './pages/batman/BatmanPage';
+import BaticornPage from './pages/baticorn/BaticornPage';
 import JokerPage from './pages/joker/JokerPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
@@ -54,8 +54,8 @@ const router = createBrowserRouter([
         errorElement: <ErrorPage />
     },
     {
-        path: '/batman',
-        element: <BatmanPage />,
+        path: '/baticorn',
+        element: <BaticornPage />,
         errorElement: <ErrorPage />
     },
     {
