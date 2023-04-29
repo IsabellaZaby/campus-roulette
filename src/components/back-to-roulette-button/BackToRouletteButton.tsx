@@ -17,7 +17,7 @@ function BackToRouletteButton(props: IBackRouletteButtonProps) {
         }, 1000);
 
         const timeout = setTimeout(function () {
-            navigate('/');
+            navigate('/campus-roulette');
         }, 1000 * countdown);
 
         return () => {

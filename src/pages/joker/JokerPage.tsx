@@ -22,7 +22,7 @@ function JokerPage() {
             <div className="joker-container">
                 <h1>You encountered the magical enchanted grumpycorn!</h1>
                 <img
-                    src="/pictures/grumpycorn.jpeg"
+                    src="/campus-roulette/pictures/grumpycorn.jpeg"
                     className="joker-image"
                     alt="Grumpycorn"
                 />

@@ -6,7 +6,7 @@ function NeahPage() {
         <div className="page-wrapper">
             <h1 className="neah-text">Falsche Antwort...</h1>
             <img
-                src="/pictures/grumpy_unicorn_1.png"
+                src="/campus-roulette/pictures/grumpy_unicorn_1.png"
                 className="neah-img"
                 alt="Bild eines grantigen Einhorns"
             />

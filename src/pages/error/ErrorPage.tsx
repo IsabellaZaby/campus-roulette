@@ -7,7 +7,7 @@ function ErrorPage() {
             <div className="error-container">
                 <h1 className="error-text">Error 404</h1>
                 <img
-                    src="/pictures/sad_unicorn.png"
+                    src="/campus-roulette/pictures/sad_unicorn.png"
                     className="error-img"
                     alt="Bild eines traurigen Einhorns"
                 />

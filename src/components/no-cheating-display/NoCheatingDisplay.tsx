@@ -7,7 +7,7 @@ function NoCheatingDisplay() {
             <div className="no-cheating-display-container">
                 <h1>Nicht schummeln!</h1>
                 <img
-                    src="/pictures/grumpy_unicorn_2.png"
+                    src="/campus-roulette/pictures/grumpy_unicorn_2.png"
                     alt="Grumpy Unicorn"
                     className="no-cheating-display-image"
                 />

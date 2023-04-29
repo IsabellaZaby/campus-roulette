@@ -13,7 +13,7 @@ function WinPage() {
 
     function onClick() {
         reset();
-        navigate('/');
+        navigate('/campus-roulette');
     }
 
     if (points < 5) {

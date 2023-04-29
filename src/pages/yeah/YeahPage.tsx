@@ -6,7 +6,7 @@ function YeahPage() {
         <div className="page-wrapper">
             <h1 className="yeah-text">Das war richtig! Yay!</h1>
             <img
-                src="/pictures/happy_unicorn_2.png"
+                src="/campus-roulette/pictures/happy_unicorn_2.png"
                 className="yeah-img"
                 alt="Bild eines glücklichen Einhorns"
             />

@@ -1,10 +1,10 @@
 import './TimeoutPage.scss';
 import BackToRouletteButton from '../../components/back-to-roulette-button/BackToRouletteButton';
-import {useContext, useEffect} from "react";
-import {GameContext} from "../../context/GameContext";
+import { useContext, useEffect } from 'react';
+import { GameContext } from '../../context/GameContext';
 
 function TimeoutPage() {
-    const {points, setPoints} = useContext(GameContext);
+    const { points, setPoints } = useContext(GameContext);
 
     useEffect(() => {
         setPoints(points - 1);
@@ -13,7 +13,7 @@ function TimeoutPage() {
         <div className="page-wrapper">
             <h1 className="timeout-text">Zu spät...</h1>
             <img
-                src="/pictures/sad_unicorn.png"
+                src="/campus-roulette/pictures/sad_unicorn.png"
                 className="timeout-img"
                 alt="Bild eines traurigen Einhorns"
             />
