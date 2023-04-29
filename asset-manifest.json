@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/campus-roulette/static/css/main.0dd34080.css",
-    "main.js": "/campus-roulette/static/js/main.9b79be44.js",
+    "main.js": "/campus-roulette/static/js/main.41e0c48f.js",
     "static/js/787.1e9085cf.chunk.js": "/campus-roulette/static/js/787.1e9085cf.chunk.js",
     "index.html": "/campus-roulette/index.html",
     "main.0dd34080.css.map": "/campus-roulette/static/css/main.0dd34080.css.map",
-    "main.9b79be44.js.map": "/campus-roulette/static/js/main.9b79be44.js.map",
+    "main.41e0c48f.js.map": "/campus-roulette/static/js/main.41e0c48f.js.map",
     "787.1e9085cf.chunk.js.map": "/campus-roulette/static/js/787.1e9085cf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0dd34080.css",
-    "static/js/main.9b79be44.js"
+    "static/js/main.41e0c48f.js"
   ]
 }
