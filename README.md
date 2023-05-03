@@ -38,3 +38,11 @@ Access the web application by entering the following URL inside your web browser
 ```
 http://localhost:3000
 ```
+
+
+Or test it online under this URL:
+
+```
+https://isabellazaby.github.io/campus-roulette/
+```
+
